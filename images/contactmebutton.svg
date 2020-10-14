@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="165" viewBox="0 0 172 165">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d6b35b;
+      }
+
+      .cls-2 {
+        fill: #e9c975;
+      }
+
+      .cls-3 {
+        fill: #312404;
+        font-size: 30px;
+        font-family: Coustard-Regular, Coustard;
+      }
+    </style>
+  </defs>
+  <g id="Group_110" data-name="Group 110" transform="translate(-17 -195)">
+    <path id="Path_271" data-name="Path 271" class="cls-1" d="M85,0c46.944,0,85,36.937,85,82.5S131.944,165,85,165,0,128.063,0,82.5,38.056,0,85,0Z" transform="translate(17 195)"/>
+    <ellipse id="Ellipse_138" data-name="Ellipse 138" class="cls-2" cx="83" cy="80.5" rx="83" ry="80.5" transform="translate(23 195)"/>
+    <text id="CONTACT_ME" data-name="CONTACT 
+ME" class="cls-3" transform="translate(109 275)"><tspan x="-77.534" y="0">CONTACT </tspan><tspan x="-24.595" y="42">ME</tspan></text>
+  </g>
+</svg>

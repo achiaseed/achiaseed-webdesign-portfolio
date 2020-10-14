@@ -1,0 +1,646 @@
+/* GENERAL CLASSES */
+.title{
+    color:#312404;
+    font-family: 'Coustard', serif;
+    font-size: 55px;
+    text-align: center;
+    content: center;
+    position: relative;
+    top: 5vh;
+}
+/* BUTTON COLORS */
+.dark-green{
+    color: #FAFCF5;
+    background-color: #90A589;
+    border-color: #67845E;
+    font-size: 30px;
+}
+.dark-green:hover{
+    color: #67845E;
+    background-color: #FAFCF5;
+    border-color: #67845E;
+    font-size: 30px;
+}
+.purple{
+    color: #FAFCF5;
+    background-color:#52414C;
+    font-size: 30px;
+}
+.purple:hover{
+    color: #F7E3AF;
+    background-color:#81747C;
+    border-color: #695F48;
+    font-size: 30px;
+}
+.brown{
+    color: #F7E3AF;
+    background-color:#312404;
+    border-color: #695F48;
+    font-size: 30px;
+}
+.brown:hover{
+    color: #312404;
+    background-color:#F7E3AF;
+    border-color: #695F48;
+    font-size: 30px;
+}
+.yellow{
+    background-color: #81747C;
+    color:#EDD382;
+    border-color:#312404;
+    font-size: 30px;
+}
+.yellow:hover{
+    
+    background-color: #EDD382;
+    color:#312404;
+    border-color:#81747C;
+    font-size: 30px;
+
+}
+/* WORKS */
+.works-preview{
+    position: relative;
+    top: 8vh;
+}
+
+/* STYLING APPLIED TO ALL */ 
+
+/* NAV */
+.animated-icon1{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+    
+    .animated-icon1 span{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    }
+    
+    .nav-link{
+        color: #312404;
+    }
+    
+    .animated-icon1 span {
+    background: #5A7452;
+    }
+    
+    .animated-icon1 span:nth-child(1) {
+    top: 0px;
+    }
+    
+    .animated-icon1 span:nth-child(2) {
+    top: 10px;
+    }
+    
+    .animated-icon1 span:nth-child(3) {
+    top: 20px;
+    }
+    
+    .animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    }
+    
+    .animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+    }
+    
+    .animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    }
+
+
+    .nav-style{
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        color:#312404;
+        background-color: #5A7452;
+    }
+  
+/* HOME */
+#welcomeScreen{
+    background-color: #DFF3E3;
+}
+#header-logo{
+    background-image: url("../images/icon.png");
+}
+
+#title{
+    color:#312404;
+    font-family: 'Coustard', serif;
+    font-size: 70px;
+    text-align: center;
+    content: center;
+}
+.titleName{
+    content: center;
+    position: relative;
+    top: 10vh;
+}
+#titledesc{
+    color:#312404;
+    font-family: 'Lora', serif;
+    font-size: 27px;
+    text-align: center;   
+}
+.titleDesc{
+    content: center;
+    position: relative;
+    top: 12vh;
+}
+.icecreamscoops{
+    background-image: url(../images/mysweetworld.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 23vh;
+
+}
+
+
+/* FOOTER */
+#footer{
+    background-color: #52414C;
+}
+.info-footer{
+    background-color: #52414C !important;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: #F7E3AF;
+    position: relative;
+    height: 150px;
+}
+.footer-title{
+    font-family: 'Coustard', serif;
+    font-size: 40px;
+    color: #F7E3AF; 
+}
+.footer-button{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+}
+
+
+/* ABOUT */
+#about{
+    background-color: #D0ADA7;
+}
+.about-title{
+    position: relative;
+    top: 5vh;
+}
+.bio-title{
+    position: relative; 
+    top: 10vh;
+}
+
+/* WORKS */
+#works{
+    background-color: #F7F8D2;
+}
+.works-title{
+    font-family: 'Coustard', serif;
+        font-size: 40px;
+        color:#312404;
+        text-align: center;
+        
+}
+.cb-desc{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color:#312404;    
+    text-align: center; 
+    content: center;
+    display: block;
+    max-width: 800px;
+}
+.cb-button{
+    font-family: 'Coustard', serif;
+        font-size: 25px;
+        text-align: center;
+}
+
+
+/* RESUME */
+.resume-chip1 {
+    display: inline-block;
+    padding: 0px 20px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 37px;
+    border-radius: 23px;
+    color: #F2F2F2;
+    background-color: #1e3231;
+    margin: 2px 2px 2px 2px;
+}
+.resume-chip2 {
+    display: inline-block;
+    padding: 0px 20px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 37px;
+    border-radius: 23px;
+    color: #F7EACD;
+    background-color: #393424;
+    margin: 2px 2px 2px 2px;
+}
+.resume-chip3 {
+    display: inline-block;
+    padding: 0px 20px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 37px;
+    border-radius: 23px;
+    color: #F5CB5C;
+    background-color: #162338;
+    margin: 2px 2px 2px 2px;
+}
+    /*
+    Beaver: #A18276
+    yellow: #F5CB5C
+    lavander: #81717A
+    fuchsia: #9D6381
+    dark purple: #36213E
+    green: #4b7f52
+    dark blue: #011638
+    deep space sparkle: #3A606E
+    taupe: #AF9164
+    anti-flash white: #F2F2F2
+    */
+  
+.resume{
+    background-color: #A4BFBE;
+    content: center;
+    min-height: 100vh;
+}
+.resume-body{
+    font-family: 'Lora', serif;
+    color: #1C2321;
+    font-size: 20px;
+    background-color:#C5D6D5;
+}
+.resume-button{
+    font-family: 'Coustard', serif;
+    width: 350px;
+    text-align: center;
+}
+.resume-class{
+    width: 70vw;
+}
+.resume-heading{
+    font-family: 'Coustard', serif;
+    color: #363020;
+    font-size: 25px;
+}
+.resume-subheading{
+    font-family: 'Lora', serif;
+    color: #363020;
+    font-size: 20px;
+}
+
+    
+
+/*  CONTACT */
+.contact-button{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    text-align: center;
+}
+.contact-title{
+    color: #52414C;
+    font-family: 'Coustard', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+/* FOR DEVICE SIZES SPECIFICITY */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*NAV*/
+    
+    /*ABOUT*/    
+    .about{
+        background-color: #D0ADA7 !important;
+        position: relative;
+        height: 178vh;
+    }
+    .about-me{
+        background-color: #D0ADA7 !important;
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        color:#312404;
+        text-align: center;
+    }
+    .about-desc{
+        max-width: 60vw;
+        max-height: 100vh;
+        content: center;
+        position: relative;
+        top: 5vh; 
+    }
+    .bio-pic{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    /* CONTACT*/
+    .contact-title{
+        color: #67845E;
+        font-family: 'Coustard', serif;
+        font-size: 27px;
+        text-align: center;
+    }
+    /* FOOTER */
+    #footer{
+        background-color: #52414C;
+    }
+    .info-footer{
+        background-color: #52414C !important;
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color: #F7E3AF;
+        position: relative;
+        max-height: 150px;
+    }
+    .footer-title{
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        color: #F7E3AF; 
+    }
+    .footer-button{
+        font-family: 'Lora', serif;
+        font-size: 20px;
+    }
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 23px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Coustard', serif;
+        font-size: 23px;
+        text-align: center;
+    }
+    
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* GENERAL */
+    .title{
+        color:#312404;
+        font-family: 'Coustard', serif;
+        font-size: 45px;
+        text-align: center;
+        content: center;
+        position: relative;
+        top: 5vh;
+    }
+    /* ABOUT */    
+    .about{
+        background-color: #D0ADA7 !important;
+        position: relative;
+        height: 175vh;
+        max-height: 300vh;
+    }
+    .about-me{
+        background-color: #D0ADA7 !important;
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        color:#312404;
+        text-align: center;
+    }
+    .about-desc{
+        max-width: 60vw;
+        max-height: 100vh;
+        content: center;
+        position: relative;
+        top: 5vh; 
+    }
+    .bio-pic{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Coustard', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /*ABOUT*/    
+    .about{
+        background-color: #D0ADA7 !important;
+        position: relative;
+        height: 175vh;
+        max-height: 350vh;
+    }
+    .about-me{
+        background-color: #D0ADA7 !important;
+        font-family: 'Lora', serif;
+        font-size: 23px;
+        color:#312404;
+        text-align: center;
+    }
+    .about-desc{
+        max-width: 60vw;
+        max-height: 100vh;
+        content: center;
+        position: relative;
+        top: 5vh; 
+    }
+    .bio-pic{
+        max-width: 200px;
+        max-height: 2000px;
+    }
+
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Coustard', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /*ABOUT*/    
+    .about{
+        background-color: #D0ADA7 !important;
+        position: relative;
+        height: 180vh;
+        max-height: 300vh;
+    }
+    .about-me{
+        background-color: #D0ADA7 !important;
+        font-family: 'Lora', serif;
+        font-size: 23px;
+        color:#312404;
+        text-align: center;
+    }
+    .about-desc{
+        max-width: 60vw;
+        max-height: 100vh;
+        content: center;
+        position: relative;
+        top: 5vh; 
+    }
+    .bio-pic{
+        max-width: 200px;
+        max-height: 2000px;
+    }
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Coustard', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
+} 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+
+/*ABOUT*/
+
+    .about{
+        background-color: #D0ADA7 !important;
+        position: relative;
+        height: 175vh;
+        max-height: 300vh;
+    }
+    .about-me{
+        background-color: #D0ADA7 !important;
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;
+        text-align: center;
+    }
+    .about-desc{
+        max-width: 60vw;
+        max-height: 100vh;
+        content: center;
+        position: relative;
+        top: 5vh; 
+    }
+    .bio-pic{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .center-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+/* CONTACT */
+
+    .contact-button{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+    .contact-title{
+        color: #67845E;
+        font-family: 'Coustard', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Coustard', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+    /* RESUME */
+    .resume-button{
+        font-family: 'Coustard', serif;
+        width: 350px;
+        text-align: center;
+    }
+   
+}

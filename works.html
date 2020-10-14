@@ -10,10 +10,16 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Coustard&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coustard|Lora&display=swap" rel="stylesheet">
+    <!-- JQuery first, then Popper.js, then Bootstrap JS -->    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- Styling CSS -->
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- JavaScript -->
     <script src="animation.js"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
 
     <title>Ashley Cheah Works</title>
   </head>
@@ -24,7 +30,7 @@
         <nav class="navbar navbar-dark darken-1">
           
             <!-- Navbar brand -->
-            <a class="navbar-brand header-logo" href="#home">
+            <a class="navbar-brand header-logo" href="index.html">
                 <img src="images/icon.png" width="50" height="50" class="d-inline-block align-top" alt="icon of Ashley">
               </a>
     
@@ -69,69 +75,121 @@
           <!--description of page-->
           <div class="works-desc">
             Welcome!
-            Here you can find the projects I've worked on.
-            </div>
-            <br>
+            Here you can find the projects I've worked on!
+          </div>
         </div>
-          <!--NSP
-          <article class="works-preview nsp-section">
-            <div class="works-preview">
-                <img src="images/nsp.png" class="img-fluid center-block" alt="preview of NSP's records site">
-            </div>
-              </br>
-              <h2 class="works-title my-4 py-4">
-                National School Project's Records Site
-              </h2>
-          
-            <div class="cb-desc center-block">
-                I worked on the UX/UI of this group project designed for 
-                D&D masters to run their campaigns more efficiently.
-              </div>
-          </article>
--->
-        </br>
-      </br>
-
           <!--Campaign Buddy-->
           <article class="fluid-width text-sm-center cb-section">
             <div class="works-preview">
-              <img src="images/campaignbuddy.png" class="img-fluid center-block">
+              <img src="images/campaignbuddy.png" class="img-fluid center-block" alt="preview of Campaign Buddy">
             </div>
             </br>
             <h2 class="works-title my-4 py-4">
                 Campaign Buddy
               </h2>
-            <div class="cb-desc center-block">
+            <div class="cb-desc text-center container">
               I worked on the UX/UI of this group project designed for 
-              D&D masters to run their campaigns more efficiently.
+              D&D (Dungeons and Dragons) game masters to run their campaigns more efficiently. This entails that our users have previous knowledge
+              regarding to how a campaign is run with the rules of D&D. 
+              This was for my software engineering project which I collaborated with 5 other students. 
+            </br>
+            </br>
+              Inspired by the official D&D's Player's handbook's look and feel, we wanted to evoke familiarity with our users 
+             as they interacted with our program. It allows our user's experience to continually flow in game and out. 
+            </br>
+            </br>
+              I generated wireframes, color schemes, font choices, general page mockups and completely 
+              coded the dice roller feature (PDF of designs coming soon). 
+              After clicking "View Here", simply log in to a google account and start a campaign and try out our different features. 
+            </div>
+            </br>
+            <div class="text-center">
+              <a class="cb-button btn" href="http://app.dndcampaignbuddy.com"> View here</a>
             </div>
           </article>
-        </br>
-        </br>
-        <div class="cb-button text-center">
-          <a class="brown btn" href="http://app.dndcampaignbuddy.com"> View here</a>
-        </div>
-        </br>
-        </br>
+          <article class="fluid-width text-sm-center sga-section">
+              <div class="works-preview">                
+                <img class="img-fluid center-block" src="images/sgaconnectmainscreen.png" alt="SGA Connect Main Screen">
+                </br>
+                <h2 class="sga-title works-title my-4 py-4">
+                    SGA Connect
+                  </h2>
+                <div class="sga-desc center-block container">
+                  This semester long project assigned during my User Interface and Design course. The goal was to 
+                  create a mock program to help Biola's Student Government reach their students more effectively.
+                  We worked with NetBeans and Java Swing to create a desktop program. 
+                  I mostly worked on the UX/UI of the project though designs were limited due to the constraints of the program as well as user testing.
+                  User testing included creating forms for our testors to give feedback, gathering testors, conducting the tests, 
+                  and noting human behavior (e.g. what users struggled to identify and what users found with ease).
+                </br>
+                </br>
+                  SGA Connect was modeled to look similar to the website Canvas which is used by students and professors to view grades, assginments, files, and syllabi.
+                  Designing the layout to mimic a widely used school website allowed familiarity between student government members, their constituents (BIOLA's students), 
+                  and allowed the mind to associate an application used for an aspect of school with other applications also used in school. 
+                </br>
+                </br>
+                  I have included a sample of our program (.jar file) as well as a few of the major screens we worked on.
+                </div>
+                </br>
+                </br>
+                <div class="text-center">
+                    <a class="sga-button btn" href="works/SGA screens and .jar.zip"> View here</a>
+                </div>
+          </article>
+          <article class="fluid-width text-sm-center nsp-section">
+            <div class="works-preview container">
+                <img src="images/nspstats.PNG" class="img-fluid center-block" alt="preview of NSP's records site">
+            </div>
+          </br>
+          </br>
+              <h2 class="nsp-title my-4 py-4 center-block container">
+                National School Project's Records Site
+              </h2>
+            <div class="nsp-desc center-block container">
+                The National School Project is a non-profit organization that aims to equip high school students 
+                all around the country to share God's word with their fellow classmates. I helped organize the home page layout for NSP's records website
+                which is not shown to the public but accessible by their staff. I cannot display the full version of what I worked on
+                I essentially helped organize their statistics into a more readable fashion (shown above).
+              </div>
+            </br>
+            </br>
+            </br>
+            <div class="text-center">
+                  <a class="nsp-button btn" href="https://codepen.io/achiaseed/pen/ppjwqe"> View on Codepen</a>
+                </div>
+          </article>
     </section>
 
-
-     <!-- FOOTER -->
-     <section id="footer" class="info-footer">
-        <div class="column-social text-center">
-          <div class="footer-button">
-              <a class="purple btn" href="https://www.linkedin.com/in/ashleycheah/"> LinkedIn </a>
-          </div>
-            </div>                 
-        <div class="copyright text-center">
-            &copy; Ashley Cheah
+    <!-- CONTACT -->
+     <section id="contact" class="justify-content-center">
+      <div class="text-center container">
+        <h2 class="contact-title py-3">
+          Let's get to know each other!
+        </h2>
+        <div class="text-center">
+          <a class="btn contact-button" href="mailto:ashley.m.cheah@gmail.com" role="button"> 
+            Contact Me
+          </a>
         </div>
-    </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </div>
+    </br>
+    </br>
+  </section>
+
+   <!-- FOOTER -->
+   <section id="footer" class="info-footer">
+      <div class="column-social text-center">
+        <div class="footer-btn">
+          <a class="btn footer-linkedin" href="https://www.linkedin.com/in/ashleycheah/"> LinkedIn </a>
+          <a class="btn footer-handshake" href="https://biola.joinhandshake.com/users/2735083"> HandShake </a>
+          <a class="btn footer-dribbble" href="https://dribbble.com/achiaseed"> Dribbble </a>
+        </div>
+      </div>
+      </br>
+      <div class="copyright text-center">
+          &copy; Ashley Cheah
+      </div>
+  </section> 
   </body>
 </div>
 </html>
