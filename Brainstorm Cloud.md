@@ -1,8 +1,8 @@
 # Brainstorm Cloud
 
 ## Quick Links:
-  * [markdown syntax] (https://guides.github.com/features/mastering-markdown/)
-  * [eMOTES] (https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+  * [markdown syntax](https://guides.github.com/features/mastering-markdown/)
+  * [eMOTES](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 ### Technicals: 
   * Domain:
@@ -29,7 +29,7 @@
   * About me
 
 Task list:
- -[]
- -[] fix Resume
- -[] update works page
- -[] SEO
+ - [ ] 
+ - [ ] fix Resume
+ - [ ] update works page
+ - [ ] SEO
