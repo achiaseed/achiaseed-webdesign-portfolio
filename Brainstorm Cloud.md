@@ -1,15 +1,15 @@
 # Brainstorm Cloud
 
-##Quick Links:
-  *[markdown syntax] (https://guides.github.com/features/mastering-markdown/)
-  *[eMOTES] (https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+## Quick Links:
+  * [markdown syntax] (https://guides.github.com/features/mastering-markdown/)
+  * [eMOTES] (https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
-###Technicals: 
-  *Domain:
-  *Server:
+### Technicals: 
+  * Domain:
+  * Server:
   *
 
-###Word Cloud ~ Design style:
+### Word Cloud ~ Design style:
   *flat design
   *soft complementary colors
   *Simple shapes for the logo, 
