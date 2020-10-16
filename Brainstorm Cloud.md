@@ -10,23 +10,23 @@
   *
 
 ### Word Cloud ~ Design style:
-  *flat design
-  *soft complementary colors
-  *Simple shapes for the logo, 
-  *even the packaging is soft with the rounded containers
-  *bright and lively
-  *Cute, simple shapes, whimsical
+  * flat design
+  * soft complementary colors
+  * Simple shapes for the logo, 
+  * even the packaging is soft with the rounded containers
+  * bright and lively
+  * Cute, simple shapes, whimsical
   
-###Art style inspiration: 
-  *[Tea Drops] (https://www.myteadrop.com/collections/tea-drops-flavors)
+### Art style inspiration: 
+  * [Tea Drops] (https://www.myteadrop.com/collections/tea-drops-flavors)
 
 
-###Layout:
-  *Welcome Page
-  *Works/Portfolio
-  *Resume
-  *Contact
-  *About me
+### Layout:
+  * Welcome Page
+  * Works/Portfolio
+  * Resume
+  * Contact
+  * About me
 
 Task list:
  -[]
