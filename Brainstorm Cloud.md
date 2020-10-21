@@ -20,6 +20,9 @@
 ### Art style inspiration: 
   * [Tea Drops] (https://www.myteadrop.com/collections/tea-drops-flavors)
 
+### Color Inspiration
+  * ![https://www.brdr-kruger.com/](https://assets.awwwards.com/awards/sites_of_the_day/2015/05/brdr-kruger-3.jpg)
+
 
 ### Layout:
   * Welcome Page
