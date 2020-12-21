@@ -27,43 +27,22 @@
        <!--Nav Bar and Header-->
        <header>
         <!-- Navbar-->
-        <nav class="navbar navbar-dark darken-1">
-          
-            <!-- Navbar brand -->
-            <a class="navbar-brand header-logo" href="index.html">
-                <img src="images/icon.png" width="50" height="50" class="d-inline-block align-top" alt="icon of Ashley">
-              </a>
-    
-              <!-- Collapse button -->
-              <button class="navbar-toggler first-button3" type="button" data-toggle="collapse" 
-                      data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" 
-                      aria-expanded="false" aria-label="Toggle navigation">
-                <div class="animated-icon1">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </button>
-    
+        <nav role="navigation">
+         <div id="menuToggle">
+           <!-- Collapse button: hamburger style-->
+           <input type="checkbox" />
+               <span></span>
+               <span></span>
+               <span></span>
               <!-- Collapsible content -->
-              <div class="collapse navbar-collapse" id="navbarSupportedContent20">
-            
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto nav-style">
-                  <li class="nav-item p-2">
-                    <a class="nav-link nav-style" href="index.html">About</a>
-                  </li>
-                  <li class="nav-item active p-2">
-                      <a class="nav-link nav-style" href="works.html">Works<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item p-2">
-                        <a class="nav-link nav-style" href="resume.html">Resume</a>
-                  </li>
-                </ul>  
-               </div>
+               <ul id="menu">
+                   <a class="nav-link nav-style" href="index.html">About</a>
+                   <a class="nav-link nav-style" href="works.html">Works<span class="sr-only">(current)</span></a>
+                   <a class="nav-link nav-style" href="resume.html">Resume</a>
+               </ul>  
+           </div>
         </nav>
-
-        </header>
+     </header>   
 
       
   <body>    
@@ -73,20 +52,110 @@
         <div class="cb-desc container fluid-width text-sm-center">    
           
           <!--description of page-->
-          <div class="works-desc">
+          <div class="works-desc container">
             Welcome!
             Here you can find the projects I've worked on!
           </div>
         </div>
-          <!--Campaign Buddy-->
-          <article class="fluid-width text-sm-center cb-section">
+          <!--Works-->
+
+          <article id="missions" class="fluid-width text-sm-center cz-section">
+            <div class="works-preview">
+              <img src="images/cozypreview.png" class="img-fluid center-block" alt="preview of Cozy">
+            </div>
+            </br>
+            <h2 class="works-title my-4 py-4">
+                Missions (Dec 2020-present)
+              </h2>
+            <div class="cz-desc text-center container">
+              The number of people in the world struggling with anxiety is unprecedent. 
+              Even I struggle with anxiety on a daily basis. Whenever I feel my anxiety rise, I try to find a safe haven
+              which often is home for me to wait out the waves. 
+              It has always been my desire to create a small app to help those like me calm down and 
+              have that sense of "it will be okay, you're not alone, and you did well" right at their fingertips. 
+            </br>
+            </br>
+              The premises of <i>Cozy</i> is the user has the ability to interact with the wildlife in their backyard.
+              Depending on the presence of food or time of day, different animals will appear. I hope to implement the calming
+              activity of garden and baking into the game mechanics as well as calming sound effects like a water fountain, rain,
+              a fireplace, rustling of leaves, and more. 
+            </br>
+            </div>
+            </br>
+           <!-- <div class="text-center">
+              <a class="cb-button btn" href="http://app.dndcampaignbuddy.com"> View here</a>
+            </div>
+            -->
+          </article>
+          <article id="cozy" class="fluid-width text-sm-center cz-section">
+            <div class="works-preview">
+              <img src="images/cozypreview.png" class="img-fluid center-block" alt="preview of Cozy">
+            </div>
+            </br>
+            <h2 class="works-title my-4 py-4">
+                Cozy (Sept 2020-present)
+              </h2>
+            <div class="cz-desc text-center container">
+              The number of people in the world struggling with anxiety is unprecedent. 
+              Even I struggle with anxiety on a daily basis. Whenever I feel my anxiety rise, I try to find a safe haven
+              which often is home for me to wait out the waves. 
+              It has always been my desire to create a small app to help those like me calm down and 
+              have that sense of "it will be okay, you're not alone, and you did well" right at their fingertips. 
+            </br>
+            </br>
+              The premises of <i>Cozy</i> is the user has the ability to interact with the wildlife in their backyard.
+              Depending on the presence of food or time of day, different animals will appear. I hope to implement the calming
+              activity of garden and baking into the game mechanics as well as calming sound effects like a water fountain, rain,
+              a fireplace, rustling of leaves, and more. 
+            </br>
+            </div>
+            </br>
+           <!-- <div class="text-center">
+              <a class="cb-button btn" href="http://app.dndcampaignbuddy.com"> View here</a>
+            </div>
+            -->
+          </article>
+
+          <article id="TransportOp" class="fluid-width text-sm-center cz-section">
+            <div class="works-preview">
+              <img src="images/cozypreview.png" class="img-fluid center-block" alt="preview of Cozy">
+            </div>
+            </br>
+            <h2 class="works-title my-4 py-4">
+               TransportOp
+              </h2>
+            <div class="cz-desc text-center container">
+              The number of people in the world struggling with anxiety is unprecedent. 
+              Even I struggle with anxiety on a daily basis. Whenever I feel my anxiety rise, I try to find a safe haven
+              which often is home for me to wait out the waves. 
+              It has always been my desire to create a small app to help those like me calm down and 
+              have that sense of "it will be okay, you're not alone, and you did well" right at their fingertips. 
+            </br>
+            </br>
+              The premises of <i>Cozy</i> is the user has the ability to interact with the wildlife in their backyard.
+              Depending on the presence of food or time of day, different animals will appear. I hope to implement the calming
+              activity of garden and baking into the game mechanics as well as calming sound effects like a water fountain, rain,
+              a fireplace, rustling of leaves, and more. 
+            </br>
+            </div>
+            </br>
+           <!-- <div class="text-center">
+              <a class="cb-button btn" href="http://app.dndcampaignbuddy.com"> View here</a>
+            </div>
+            -->
+          </article>
+
+
+
+
+          <article id="cb" class="fluid-width text-sm-center cb-section">
             <div class="works-preview">
               <img src="images/campaignbuddy.png" class="img-fluid center-block" alt="preview of Campaign Buddy">
             </div>
             </br>
             <h2 class="works-title my-4 py-4">
-                Campaign Buddy
-              </h2>
+                Campaign Buddy (Spr. 2019)
+            </h2>
             <div class="cb-desc text-center container">
               I worked on the UX/UI of this group project designed for 
               D&D (Dungeons and Dragons) game masters to run their campaigns more efficiently. This entails that our users have previous knowledge
@@ -98,7 +167,7 @@
              as they interacted with our program. It allows our user's experience to continually flow in game and out. 
             </br>
             </br>
-              I generated wireframes, color schemes, font choices, general page mockups and completely 
+              Responsibilities: generated wireframes, color schemes, font choices, general page mockups and completely 
               coded the dice roller feature (PDF of designs coming soon). 
               After clicking "View Here", simply log in to a google account and start a campaign and try out our different features. 
             </div>
@@ -107,12 +176,17 @@
               <a class="cb-button btn" href="http://app.dndcampaignbuddy.com"> View here</a>
             </div>
           </article>
-          <article class="fluid-width text-sm-center sga-section">
+
+
+
+
+
+          <article id="sga" class="fluid-width text-sm-center sga-section">
               <div class="works-preview">                
                 <img class="img-fluid center-block" src="images/sgaconnectmainscreen.png" alt="SGA Connect Main Screen">
                 </br>
                 <h2 class="sga-title works-title my-4 py-4">
-                    SGA Connect
+                    SGA Connect (Fall 2017)
                   </h2>
                 <div class="sga-desc center-block container">
                   This semester long project assigned during my User Interface and Design course. The goal was to 
@@ -136,14 +210,20 @@
                     <a class="sga-button btn" href="works/SGA screens and .jar.zip"> View here</a>
                 </div>
           </article>
-          <article class="fluid-width text-sm-center nsp-section">
+
+
+
+
+
+          
+          <article id="nsp" class="fluid-width text-sm-center nsp-section">
             <div class="works-preview container">
                 <img src="images/nspstats.PNG" class="img-fluid center-block" alt="preview of NSP's records site">
             </div>
           </br>
           </br>
               <h2 class="nsp-title my-4 py-4 center-block container">
-                National School Project's Records Site
+                National School Project's Records Site (Spr. 2018)
               </h2>
             <div class="nsp-desc center-block container">
                 The National School Project is a non-profit organization that aims to equip high school students 

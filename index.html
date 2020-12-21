@@ -21,47 +21,38 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
     <title>Ashley Cheah</title>
   </head>
-    <div id="welcomeScreen">
-        <!--Nav Bar and Header-->
+
+
+
+
+    <section id="home">
+        <!--Header-->
         <header>
            <!-- Navbar-->
-           <nav class="navbar navbar-dark darken-1">
-              <!-- Navbar brand -->
-              <a class="navbar-brand header-logo" href="#home">
-                  <img src="images/icon.png" width="50" height="50" class="d-inline-block align-top" alt="icon of Ashley">
-                </a>  
-              <!-- Collapse button -->
-              <button class="navbar-toggler first-button2" type="button" data-toggle="collapse" 
-                      data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" 
-                      aria-expanded="false" aria-label="Toggle navigation">
-                <div class="animated-icon1">
+           <nav role="navigation">
+            <div id="menuToggle">
+              <!-- Collapse button: hamburger style-->
+              <input type="checkbox" />
                   <span></span>
                   <span></span>
                   <span></span>
-                </div>
-              </button>
                  <!-- Collapsible content -->
-                 <div class="collapse navbar-collapse" id="navbarSupportedContent20">
-                  <!-- Links -->
-                  <ul class="navbar-nav mr-auto nav-style">
-                    <li class="nav-item p-2 active">
+                  <ul id="menu">
                       <a class="nav-link nav-style" href="index.html">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item p-2">
-                        <a class="nav-link nav-style" href="works.html">Works</a>
-                    </li>
-                    <li class="nav-item p-2">
-                          <a class="nav-link nav-style" href="resume.html">Resume</a>
-                    </li>
+                      <a class="nav-link nav-style" href="works.html">Works</a>
+                      <a class="nav-link nav-style" href="resume.html">Resume</a>
                   </ul>  
-                  </div>
+              </div>
            </nav>
-        </header>        
+        </header>   
+        
+        
+
+
         <body>
-      <!--Greeting-->
-        <section id="home">
+          <!--Greeting-->
             <!--I'm Ashley -->
-            <div class="heading">
+            <div class="hero-banner">
               <div class="titleName">
                 <h1 id="title"> I'm Ashley!</h1>
               </div>
@@ -70,28 +61,31 @@
               </div>
             </div>
             <!--Ice Cream-->
-            <div class="icecreamscoops img-fluid">
-                <svg height="500" alt="ice cream world art by Ashley"> 
-                  <use xmlns="images/mysweetworld.svg"/> 
+            <div class="img-fluid icecreamscoops">
+                <svg src="images/mysweetworld.svg" height="550" alt="ice cream world art by Ashley"> 
                 </svg>
             </div>
         </section>
-    </div>
+
             <!--About-->
-            <section id="about" class="about">
-              <h1 class="title about-title" mx-3 my-1> About </h1>
+            <section id="about" class="aboutclass">
+              <h1 class="title about-title"> About </h1>
               <div class="about-me justify-content-center container center-block">
                 <img src="images/ashleyisthinking.png" alt="picture of me" class="bio-pic img-fluid">
                 <article class="about-desc container center-block justify-content-center mb-5">
-                    Hi there! I am an Orange-County based UX/UI designer based in Brea. 
-                    I have a passion for designing, wireframing, prototyping, graphic designing interacting 
-                    with people and serving others any way I can. In fact, everything on this website, I designed myself!
+                    Hi there! I'm an aspiring UX/UI designer based in Brea, California. 
+                    I have a passion for designing, wireframing, prototyping, and serving others in any way I can. 
+                    Everything you see here I designed, drawn, and coded myself! 
                 </br>
-                    On the side, I serve on the cabinet board for Biola Hula Halau, which I absolutely love.  
-                    I choreograph, lead, dance and teach whenever I can.
+                </br>
+                    I have a black and white fluffy tuxedo cat named Shadow. He is the absolute fluff of my life! 
+                    Previously, I served on the cabinet board for Biola Hula Halau, which I absolutely love doing.  
+                    I choreograph, lead, dance and teach whenever I can. 
+                    Throughout this pandemic, I am honing in on my graphic design and game design skills via Unity, Illustrator, and Photoshop. 
                 </article>
               </div>
             </section>
+
             <!-- CONTACT -->
             <section id="contact" class="justify-content-center">
                 <div class="text-center container">

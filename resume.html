@@ -27,47 +27,27 @@
   <div id="resume">
        <!--Nav Bar and Header-->
        <header>
-          <!-- Navbar-->
-          <!--  style="background-color:#8DB580;" -->
-          <nav class="navbar navbar-dark darken-1">
-            
-              <!-- Navbar brand -->
-              <a class="navbar-brand header-logo" href="index.html">
-                  <img src="images/icon.png" width="50" height="50" class="d-inline-block align-top" alt="icon of Ashley">
-                </a>
-      
-                <!-- Collapse button -->
-                <button class="navbar-toggler first-button" type="button" data-toggle="collapse" 
-                        data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" 
-                        aria-expanded="false" aria-label="Toggle navigation">
-                  <div class="animated-icon1">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                </button>
-      
-                <!-- Collapsible content -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent20">
-              
-                  <!-- Links -->
-                  <ul class="navbar-nav mr-auto nav-style">
-                    <li class="nav-item p-2">
-                      <a class="nav-link nav-style" href="index.html">About </a>
-                    </li>
-                    <li class="nav-item p-2">
-                        <a class="nav-link nav-style" href="works.html">Works</a>
-                    </li>
-                    <li class="nav-item active p-2">
-                          <a class="nav-link nav-style" href="resume.html">Resume<span class="sr-only">(current)</span></a>
-                    </li>
-                  </ul>  
-                </div>
-           
-          </nav>
-        </header>
+        <!-- Navbar-->
+        <nav role="navigation">
+         <div id="menuToggle">
+           <!-- Collapse button: hamburger style-->
+           <input type="checkbox" />
+               <span></span>
+               <span></span>
+               <span></span>
+              <!-- Collapsible content -->
+               <ul id="menu">
+                   <a class="nav-link nav-style" href="index.html">About</a>
+                   <a class="nav-link nav-style" href="works.html">Works</a>
+                   <a class="nav-link nav-style" href="resume.html">Resume<span class="sr-only">(current)</span></a>
+               </ul>  
+           </div>
+        </nav>
+     </header>   
+
+
         <body>
-          <section id="resume" class="resume center-block">
+          <section id="resume" class="resume">
             <h1 class="title"> Resume </h1>
             </br>
             </br>
@@ -88,17 +68,17 @@
                   Relavant Courses:
                 </h4>
                 <p class="resume-class container">
-                  <div class="resume-chip2">
+                  <div class="resume-chip4">
                     User Interface and Design  
                   </div>
-                  <div class="resume-chip3">
-                    Software Engineering
-                  </div>
-                  <div class="resume-chip3">
-                    Operating Systems  
+                  <div class="resume-chip4">
+                    Web Design  
                   </div> 
                   <div class="resume-chip1">
-                    Web Design  
+                    Software Engineering
+                  </div>
+                  <div class="resume-chip1">
+                    Operating Systems  
                   </div> 
                   <div class="resume-chip1">
                     Advanced Database 
@@ -107,32 +87,32 @@
               </p>
               <p class="resume-class container">
                   <h4 class= "resume-subheading">
-                      Courses include:
+                      Other Courses:
                   </h4>
                   <div class="resume-chip4-intro">
                       Intro. to Computer Science  
                   </div>
-                  <div class="resume-chip4">
+                  <div class="resume-chip2">
                       Data Structures  
                   </div>
-                  <div class="resume-chip4">
+                  <div class="resume-chip2">
                       Discrete Structures  
                   </div>
-                  <div class="resume-chip2">
+                  <div class="resume-chip3">
                       Programming Languages  
-                  </div>
-                  <div class="resume-chip2">
-                      Computer Communications  
                   </div>
                   <div class="resume-chip2-assembly">
                       Comp. Org. and Assembly Lang. 
                   </div>
-                  <div class="resume-chip3">
-                      Database Management  
+                  <div class="resume-chip5">
+                      Computer Communications  
                   </div>
-                  <div class="resume-chip3">
+                  <div class="resume-chip5">
                       Theory of Algorithms  
                   </div>                         
+                   <div class="resume-chip1">
+                      Database Management  
+                  </div>
                   <div class="resume-chip1">
                       Artificial Intelligence
                   </div>
@@ -145,23 +125,59 @@
                 Internship
               </h3>
               <p class="resume-desc">
-                Agency 41 (Spring 2020-current)
+                UX Design Intern 
                 </br>
-                UX Design Intern - February 2020-current
+                Agency 41 (February 2020-June 2020)
+                <ul class="resume-desc">
+                  <li class="resume-class container">
+                    I worked on an internal project, CryoFind, using Wordpress to design marketing 
+                    pages on the features of the app and conducted user research on our 
+                    target audience.
+                    </li>
+                    <li class="resume-rb-container container">
+                      <b class="resume-rb">Responsibilities: </b> 
+                      <div class="resume-skill-ux">
+                        UX/UI Design
+                      </div> 
+                      <div class="resume-skill-ux">
+                        UX Research
+                      </div>
+                      <div class="resume-skill-ux">
+                        User Research
+                      </div>
+                    </br>
+                    <b class="resume-rb">Software: </b> 
+                    <div class="resume-skill-wp">
+                      WordPress
+                    </div> 
+                    </li>
+                </ul>
               </p>
               <h3 class="resume-heading">
                 Relavant Projects
               </h3>
               <p class="resume-desc">
-                TransportOp (Spring 2020-current)
+              <a href="works.html#TransportOp">  TransportOp (Spring 2020) </a>
                 <ul class="resume-desc">
                   <li class="resume-class container">
-                    I along with 2 other individuals are creating a web app, database, and mobile app 
-                    for a professor’s study. The tool’s purpose is to help truck drivers to optimize 
+                    I helped create a web app, database, and mobile app 
+                    for a professor’s study with two other students. The tool’s purpose is to help truck drivers to optimize 
                     transportation with the lowest cost for gas. My duties include designing, 
                     prototyping, and coding the web app.
                     </li>
-                </ul>>
+                    <li class="resume-rb-container container">
+                      <b class="resume-rb">Responsibilities: </b> 
+                      <div class="skill-ui">
+                        UX/UI Design
+                      </div> 
+                      <div class="skill-ux">
+                        UX Research
+                      </div>
+                      <div class="skill-ux">
+                        User Research
+                      </div>
+                    </li>
+                </ul>
                 Campaign Buddy | Spring 2019
                 <ul class="resume-desc">
                     <li class="resume-class container">
@@ -169,15 +185,18 @@
                       Dungeons and Dragons game masters run their campaign successfully and efficiently. 
                       I participated in the processes of wireframe, mock up, prototyping and user testing. 
                     </li>
+                    <li class="resume-class container">
+                      <b>Responsibilities: </b> UX/UI design, UX research, user research
+                    </li>
                 </ul>
-                National School Project – Whittier, CA | Summer 2017
+                National School Project – Whittier, CA | Spring 2018 
                 <ul class="resume-desc">
                   <li class="resume-class container">
                     I helped create the wireframe for the National School Project’s records homepage for staff. 
                     The staff members are able to access statistics in a clean and clear manner.
                   </li>
                 </ul>
-                SGA Connect
+                SGA Connect | Fall 2017
                 <ul class="resume-desc">
                   <li class="resume-class container">
                     In UI Design, 3 classmates and I created a program to help Biola’s Student Government reach and connect to their 
@@ -191,11 +210,24 @@
                 Skills
               </h3>
               <p class="resume-class container">
+                   <!-- TECHNICAL SKILLS-->
                   <h4 class="resume-subheading"> 
-                    Computer Languages include:
+                    Design and Research:
                   </h4>
                   <div class="resume-chip2">
-                    HTML
+                    UX/UI Design
+                  </div>
+                  <div class="resume-chip2">
+                    Wireframimg
+                  </div>
+                  <div class="resume-chip2">
+                    Prototyping
+                  </div>
+                  <h4 class="resume-subheading"> 
+                    Software:
+                  </h4>
+                  <div class="resume-chip2">
+                      HTML
                   </div>
                   <div class="resume-chip2">
                       CSS
@@ -215,17 +247,33 @@
                   <div class="resume-chip1">
                       C#
                   </div>
+
+
+
+                  <!-- TECHNICAL SKILLS-->
                   <h4 class="resume-subheading"> 
-                    Technical skills include:
-                  </h4>
-                  <div class="resume-chip1">
+                    Technical skills:
+                  </h4>             
+                  <div class="resume-chip5">
+                    Google Analytics
+                  </div>
+                  <div class="resume-chip5">
+                    Figma
+                  </div>
+                  <div class="resume-chip2">
                     Adobe XD
+                  </div>
+                  <div class="resume-chip2">
+                    Adobe Illustrator
+                  </div>
+                  <div class="resume-chip1">
+                    Adobe Photoshop
+                  </div>
+                  <div class="resume-chip1">
+                    WordPress
                   </div>
                   <div class="resume-chip1">
                     Navicat Data Modeler
-                  </div>
-                  <div class="resume-chip2">
-                    Slack
                   </div>
                   <div class="resume-chip3">
                     Vegas Movie Studio
@@ -245,8 +293,8 @@
             <div class="justify-content-center">
                 <div class="text-center">
                     <div class="text-center">
-                      <a class="resume-button btn" href="works/Ashley_Cheah_Resume.pdf"button> 
-                        Download Resume 
+                      <a class="resume-button btn" href="works/ashleyc-resume.pdf"button> 
+                        pdf version of resume 
                       </a>
                     </div>
                 </div>
