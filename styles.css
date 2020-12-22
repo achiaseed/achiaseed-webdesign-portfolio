@@ -432,7 +432,21 @@ background: #5D737E;
 #resume{
     background-color: #f1eee1;
 }
-.resume-chip1 {
+.resume-hero{
+    padding-top: 8vh;
+    margin-bottom: 8vh;
+}
+.resume-desc{
+    width: 75vw;
+    padding-left: 5vw;
+    margin-bottom: 2vh;
+}
+.resume-heading{
+    margin-top: 10vh;
+    font-size: 30px;
+    color:#382f2e;
+}
+.resume-chip1{
     display: inline-block;
     padding: 0px 15px;
     height: 35px;
@@ -514,16 +528,16 @@ background: #5D737E;
     font-size: 20px;
     text-align: center;
     line-height: 30px;
-    background-color: #81747c;
-    color:#EDD382;
-    border:2px solid #81747C;
+    background-color: #94828d;
+    color:#eee6cf;
+    border:2px solid #94828d;
     border-radius: 35px;
     transition: all 0.5s ease 0.3s;
 }
 .resume-button:hover{
-    background-color: #ad9ba6;
-    color:#312404;
-    border:2px solid #ad9ba6;
+    background-color: #695e65;
+    color:#f3eddc;
+    border:2px solid #695e65;
 }
 .resume-class{
     width: 60vw;
@@ -561,7 +575,7 @@ background: #5D737E;
     line-height: 25px;
     border-radius: 20px;
     color: #382f2e;
-    background-color: #d69b69;
+    background-color: #CACCC4;
     margin: 2px 2px 2px 2px;
 }
 .skill-wp{
@@ -572,10 +586,10 @@ background: #5D737E;
     line-height: 25px;
     border-radius: 20px;
     color: #382f2e;
-    background-color: #CACCC4;
+    background-color: #C7BDC1;
     margin: 2px 2px 2px 2px;
 }
-}
+
 .-heading{
     font-family: 'Coustard', serif;
     color: #363020;
@@ -1357,22 +1371,7 @@ background: #5D737E;
 }
     /* WORKS */
     /* RESUME */
-    .resume-button{
-        font-family: 'Coustard', serif;
-        font-size: 20px;
-        text-align: center;
-        line-height: 30px;
-        background-color: #81747C;
-        color:#EDD382;
-        border:2px solid #81747C;
-        border-radius: 35px;
-        transition: all 0.5s ease 0.3s;
-    }
-    .resume-button:hover{
-        background-color: #81747C;
-        color:#312404;
-        border:2px solid #81747C;
-    }
+    
     .resume-chip2-assembly {
         display: inline-block;
         padding: 0px 15px;
