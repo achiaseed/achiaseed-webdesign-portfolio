@@ -9,143 +9,131 @@
     position: relative;
     top: 5vh;
 }
-/*
-
+ul{
+    list-style: none; 
+}
+    
 /* NAV 
 background: #5D737E;
 */
-    body 
-    {
-      font-family: "Coustard", serif;
-      overflow-x: hidden; 
-    }
-    
-    a
-    {
-      text-decoration: none;
-      color: #232323;
-      
-      transition: color 0.3s ease;
-    }
-    
-    a:hover
-    {
-      color: #67845E;
-    }
-    
-    #menuToggle
-    {
-      display: block;
-      position: absolute;
-      top: 10vh;
-      right: 5vw;
-      
-      z-index: 1;
-      
-      -webkit-user-select: none;
-      user-select: none;
-    }
-    
-    #menuToggle input
-    {
-      display: block;
-      width: 20vw;
-      height: 20vh;
-      position: absolute;
-      top: -100px;
-      left: -100px;
-      
-      cursor: pointer;
-      
-      opacity: 0; /* hide this */
-      z-index: 2; /* and place it over the hamburger */
-      
-      -webkit-touch-callout: none;
-    }
-    
-    /* making the hamburger */
-    #menuToggle span
-    {
-      display: block;
-      width: 33px;
-      height: 4px;
-      margin-bottom: 5px;
-      position: relative;
-      
-      background: #5f4444;
-      border-radius: 3px;
-      
-      z-index: 1;
-      
-      transform-origin: 4px 0px;
-      
-      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                  opacity 0.55s ease;
-    }
-    
-    #menuToggle span:first-child
-    {
-      transform-origin: 0% 0%;
-    }
-    
-    #menuToggle span:nth-last-child(2)
-    {
-      transform-origin: 0% 100%;
-    }
-    
-    /* 
-     * Transform all the slices of hamburger
-     * into a crossmark.
-     */
-    #menuToggle input:checked ~ span
-    {
-      opacity: 1;
-      transform: rotate(45deg) translate(-2px, -1px);
-      background: #695c4d;
-    }
-    #menuToggle input:checked ~ span:nth-last-child(3)
-    {
-      opacity: 0;
-      transform: rotate(0deg) scale(0.2, 0.2);
-    }
-    #menuToggle input:checked ~ span:nth-last-child(2)
-    {
-      opacity: 1;
-      transform: rotate(-45deg) translate(0, -1px);
-    }
-    
-    #menu
-    {
-      position: absolute;
-      width: 200px;
-      margin: -100px 0 0 0;
-      padding: 20px;
-      padding-top: 125px;
-      right: -100px;
-      
-      background: #ece8d7;
-      list-style-type: none;
-      -webkit-font-smoothing: antialiased;
+body{
+    font-family: "Coustard", serif;
+    overflow-x: hidden; 
+}
 
-      /* to stop flickering of text in safari */
-      transform-origin: 0% 0%;
-      transform: translate(100%, 0);
-      
-      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-    }
+a{
+    text-decoration: none;
+    color: #232323;
     
-    #menu li
-    {
-      padding: 10px 0;
-      font-size: 22px;
-    }
+    transition: color 0.3s ease;
+}
 
-    #menuToggle input:checked ~ ul
-    {
-      transform: scale(1.0, 1.0);
-      opacity: 1;
-    }
+a:hover{
+    color: #67845E;
+}
+
+#menuToggle{
+    display: block;
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+    
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input{
+    display: block;
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+}
+
+/* making the hamburger */
+#menuToggle span{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #5f4444;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+}
+
+#menuToggle span:first-child{
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2){
+    transform-origin: 0% 100%;
+}
+
+/* 
+    * Transform all the slices of hamburger
+    * into a crossmark.
+    */
+#menuToggle input:checked ~ span{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #695c4d;
+}
+#menuToggle input:checked ~ span:nth-last-child(3){
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+#menuToggle input:checked ~ span:nth-last-child(2){
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu{
+    position: absolute;
+    width: 200px;
+    margin: -100px 0 0 0;
+    padding: 20px;
+    padding-top: 125px;
+    right: -100px;
+    
+    background: #ece8d7;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+    /* to stop flickering of text in safari */
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li{
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul{
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+}
 
 
 
@@ -156,7 +144,7 @@ background: #5D737E;
 /* HOME */
 #home{
     background-color: #DFF3E3;
-    height: 105vh;
+    max-height: 105vh;
 }
 
 #title{
@@ -325,6 +313,16 @@ background: #5D737E;
     font-size: 25px;
     color:#312404;    
 }
+.tp-section{
+    background-color: #4f7593;
+    height: 250vh;   
+}
+
+.tp-desc{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color:#312404;    
+}
 
 .cb-section{
     background-color: #B6C197;
@@ -432,20 +430,97 @@ background: #5D737E;
 #resume{
     background-color: #f1eee1;
 }
-.resume-hero{
+.resume{
+    content: center;
+    min-height: 100vh;
+}
+.resume-hero{ /* THE BIG RESUME WORD*/
     padding-top: 8vh;
     margin-bottom: 8vh;
 }
-.resume-desc{
-    width: 75vw;
-    padding-left: 5vw;
-    margin-bottom: 2vh;
-}
+
+
 .resume-heading{
     margin-top: 10vh;
-    font-size: 30px;
+    margin-bottom: 3vh;
+    font-size: 35px;
     color:#382f2e;
+    font-weight: bold;
 }
+
+.major-heading{
+    padding-left: 1vw;
+    font-size: 20px;
+    color:#492C1D;
+}
+.minor-heading{
+    padding-left: 1vw;
+    font-size: 16px;
+}
+.resume-subheading{
+    font-family: 'Lora', serif;
+    color: #492C1D;
+    font-size: 23px;
+}
+
+
+
+.resume-body{
+    font-family: 'Lora', serif;
+    color: #2e220f;
+    font-size: 20px;
+    width: 75vw;
+    right: 5vw;
+}
+.resume-button{
+    font-family: 'Coustard', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #94828d;
+    color:#eee6cf;
+    border:2px solid #94828d;
+    border-radius: 35px;
+    transition: all 0.5s ease 0.3s;
+}
+.resume-button:hover{
+    background-color: #695e65;
+    color:#f3eddc;
+    border:2px solid #695e65;
+}
+.section-body{
+    margin-left: 2vw;
+    margin-top: 5vh;
+}
+
+.cb-container{
+    padding-left: 150px;
+    width: 60vw;
+}
+
+/* RESPONSIBILITIES */
+.resume-rb-container
+{
+    font-size: 20px;
+    margin-top: 3vh;
+
+}
+.resume-rb /* the coloration of the word*/
+{
+    color:#8b704f;
+}
+
+
+/*
+.-heading{
+    font-family: 'Coustard', serif;
+    color: #363020;
+    font-size: 25px;
+}
+*/
+
+
+/* CHIPS */
 .resume-chip1{
     display: inline-block;
     padding: 0px 15px;
@@ -512,48 +587,13 @@ background: #5D737E;
     background-color: #d69b69;
     margin: 2px 2px 2px 2px;
 } 
-.resume{
-    content: center;
-    min-height: 100vh;
-}
-.resume-body{
-    font-family: 'Lora', serif;
-    color: #23221c;
-    font-size: 20px;
-    width: 75vw;
-    right: 5vw;
-}
-.resume-button{
-    font-family: 'Coustard', serif;
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-    background-color: #94828d;
-    color:#eee6cf;
-    border:2px solid #94828d;
-    border-radius: 35px;
-    transition: all 0.5s ease 0.3s;
-}
-.resume-button:hover{
-    background-color: #695e65;
-    color:#f3eddc;
-    border:2px solid #695e65;
-}
-.resume-class{
-    width: 60vw;
-}
-.resume-rb-container
-{
-    font-size: 20px;
-    margin-top: 5vh;
-    width: 60vw;
-}
-.resume-rb
-{
-    color:#99621e;
-    width: 60vw;
-}
 
+
+
+/*  SKILLS    */
+.resume-skills-container{
+    margin-left: 2vw;
+}
 .skill-ux{
     display: inline-block;
     padding: 0px 10px;
@@ -562,11 +602,9 @@ background: #5D737E;
     line-height: 25px;
     border-radius: 20px;
     color: #382f2e;
-    background-color: #d69b69;
+    background-color: #d2ab89;
     margin: 2px 2px 2px 2px;
 }
-
-
 .skill-ui{
     display: inline-block;
     padding: 0px 10px;
@@ -575,7 +613,7 @@ background: #5D737E;
     line-height: 25px;
     border-radius: 20px;
     color: #382f2e;
-    background-color: #CACCC4;
+    background-color: #d0d5c2;
     margin: 2px 2px 2px 2px;
 }
 .skill-wp{
@@ -589,18 +627,61 @@ background: #5D737E;
     background-color: #C7BDC1;
     margin: 2px 2px 2px 2px;
 }
-
-.-heading{
-    font-family: 'Coustard', serif;
-    color: #363020;
-    font-size: 25px;
+.skill-xd{
+    display: inline-block;
+    padding: 0px 10px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 20px;
+    color: #382f2e;
+    background-color: #CEAEA1;
+    margin: 2px 2px 2px 2px;
 }
-.resume-subheading{
-    font-family: 'Lora', serif;
-    color: #363020;
-    font-size: 20px;
+.skill-fg{
+    display: inline-block;
+    padding: 0px 10px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 20px;
+    color: #382f2e;
+    background-color: #d7aaaa;
+    margin: 2px 2px 2px 2px;
 }
-
+.skill-ut{
+    display: inline-block;
+    padding: 0px 10px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 20px;
+    color: #382f2e;
+    background-color: #d7c5aa;
+    margin: 2px 2px 2px 2px;
+}
+.skill-lg{
+    display: inline-block;
+    padding: 0px 10px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 20px;
+    color: #382f2e;
+    background-color: #bbc4b7;
+    margin: 2px 2px 2px 2px;
+}
+.skill-sf{
+    display: inline-block;
+    padding: 0px 10px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 20px;
+    color: #382f2e;
+    background-color: #bfcfd2;
+    margin: 2px 2px 2px 2px;
+}
 
 /* FOR DEVICE SIZES SPECIFICITY */
 /* Extra small devices (phones, 600px and down) 8F2D56: DARK RASPBERRY*/
@@ -627,6 +708,7 @@ background: #5D737E;
     }
     .about-desc{
         content: center;
+        width: 60vw;
         position: relative;
         top: 7vh; 
     }
@@ -778,9 +860,10 @@ background: #5D737E;
     }
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) D81159 RUBY*/
+/* Small devices (portrait tablets and large phones, 600px and up) D81159 RUBY
 @media only screen and (min-width: 600px) {
     /* GENERAL */
+    /*
     .title{
         color:#312404;
         font-family: 'Coustard', serif;
@@ -790,10 +873,11 @@ background: #5D737E;
         position: relative;
         top: 5vh;
     }
-    /* ABOUT */    
+    /* ABOUT */   
+    /* 
     .aboutclass{
         background-color: #C7D8C6 !important;
-        height: 150vh;
+        height: 200vh;
     }
     .about-me{
         background-color: #C7D8C6 !important;
@@ -801,7 +885,7 @@ background: #5D737E;
         font-size: 20px;
         color:#312404;
         text-align: center;
-        height: 100vh;
+        height: 200vh;
         position: relative;
         top: 3vh; 
     }
@@ -811,24 +895,15 @@ background: #5D737E;
         top: 10vh; 
     }
     .bio-pic{
-        max-width: 180px;
-        max-height: 180px;
+        max-width: 120px;
+        max-height: 120px;
         position: relative; 
         top: 3vh;
         content: center;
     }
-    /*
-    .shadow-pic{
-        max-width: 150px;
-        position: relative; 
-        top: 3vh;
-    }
-    .shadow-pic2{
-        max-width: 200px;
-        position: relative; 
-        top: 3vh;
-    }
+
 /* CONTACT */
+/*
     #contact{
         background-color: #223843;
     }
@@ -861,6 +936,7 @@ background: #5D737E;
         top: 2vh;
     }
     /* FOOTER */
+    /*
 #footer{
     background-color: #223843;
 }
@@ -917,7 +993,9 @@ background: #5D737E;
     border-color: #FC2020;
     border-radius: 32px;
 }
+
     /* WORKS */
+    /*
     .cb-desc{
         font-family: 'Lora', serif;
         font-size: 20px;
@@ -933,6 +1011,7 @@ background: #5D737E;
         text-align: center;
     }
     /* RESUME */
+    /*
     .resume-chip2-assembly{
         display: inline-block;
         padding: 0px 20px;
