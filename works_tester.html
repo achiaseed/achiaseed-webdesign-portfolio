@@ -23,68 +23,939 @@
 
     <title>Ashley Cheah Works</title>
   </head>
-  <div id="works">
-       <!--Nav Bar and Header-->
-       <header>
-        <!-- Navbar-->
-        <nav role="navigation">
-         <div id="menuToggle">
-           <!-- Collapse button: hamburger style-->
-           <input type="checkbox" />
-               <span></span>
-               <span></span>
-               <span></span>
-              <!-- Collapsible content -->
-               <ul id="menu">
-                   <a class="nav-link nav-style" href="index.html">About</a>
-                   <a class="nav-link nav-style" href="works.html">Works<span class="sr-only">(current)</span></a>
-                   <a class="nav-link nav-style" href="resume.html">Resume</a>
-               </ul>  
-           </div>
-        </nav>
-     </header>   
-
-      
-  <body>
-    <h1 class="title">
-        first
-    </h1>
-    <div class="row">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-          </div>
-        </div>
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">test 2</div>
-            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">test1</div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">test9</div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">test10</div>
-          </div>
-        </div>
-      </div>
-    </br>
-      <h1 class="title">
-        second
-    </h1>
-    <!-- List group -->
-    <div class="list-group container" id="myList" role="tablist">
-        <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">Home</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#profile" role="tab">Profile</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#messages" role="tab">Messages</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#settings" role="tab">Settings</a>
-    </div>
   
-    <!-- Tab panes -->
-    <div class="tab-content">
-        <div class="tab-pane active" id="home" role="tabpanel">...</div>
-        <div class="tab-pane" id="profile" role="tabpanel">...</div>
-        <div class="tab-pane" id="messages" role="tabpanel">...</div>
-        <div class="tab-pane" id="settings" role="tabpanel">...</div>
-    </div>
+  
+  
+  body
+  {
+    margin: 0;
+    padding: 0;
+    
+    /* make it look decent enough */
+    background: #232323;
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  
+  #menuToggle input
+  {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+  }
+  
+  /*
+   * Just a quick hamburger
+   */
+  #menuToggle span
+  {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #8D7471;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  
+  /* 
+   * Transform all the slices of hamburger
+   * into a crossmark.
+   */
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #877d71;
+  }
+  
+  /*
+   * But let's hide the middle one.
+   */
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  /*
+   * Ohyeah and the last one should go the other direction
+   */
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+  /*
+   * Make this absolute positioned
+   * at the top left of the screen
+   */
+  #menu
+  {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+    
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+  
+  /*
+   * And let's slide it in from the left
+   */
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
 </body>
 </html>
+
+
+<!--
+
+
+/* FOR DEVICE SIZES SPECIFICITY */
+/* Extra small devices (phones, 600px and down) 8F2D56: DARK RASPBERRY*/
+@media only screen and (max-width: 600px) {
+    /* NAV */
+    .nav-style{
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        color:#312404;
+        background-color: #5D737E;
+    }
+    /*ABOUT #D0ADA7;*/     
+    .aboutclass{
+        background-color: #ebeeeb;
+    }
+    .about-me{
+        background-color: #C7D8C6;
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        color:#312404;
+        height: 100vh;
+        position: relative;
+        top: 3vh; 
+    }
+    .about-desc{
+        content: center;
+        width: 60vw;
+        position: relative;
+        top: 7vh; 
+    }
+    .bio-pic{
+        max-width: 150px;
+        max-height: 150px;
+        position: relative; 
+        top: 3vh;
+        content: center;
+    }
+   /* .shadow-pic{
+        max-width: 150px;
+        position: relative; 
+        top: 3vh;
+    }
+    */
+    .shadow-pic2{
+        padding-top: 30vh;
+    }
+/* CONTACT */
+    #contact{
+        background-color: #223843;
+    }
+    .contact-button{
+        color: #FAFCF5;
+        background-color: #67845E;
+        border-color: #67845E;
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        border: 2px solid #67845E;
+        border-radius: 35px;
+        transition: all 0.5s ease 0.3s;
+    }
+    .contact-button:hover{
+        color: rgb(52, 59, 32);
+        background-color: #90A589;
+        border-color: #90A589;   
+        border-radius: 40px;
+    }
+    .contact-title{
+        color: #F7E3AF;
+        font-family: 'Coustard', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    /* FOOTER */
+#footer{
+    background-color: #223843;
+}
+.info-footer{
+    background-color: #223843;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #F7E3AF;
+    position: relative;
+    height: 150px;
+}
+.footer-linkedin{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-linkedin:hover{
+    color: #fcf1f7;
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+    border-radius: 32px;
+}
+.footer-dribbble{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-dribbble:hover{
+    color: #fcf1f7;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+    border-radius: 32px;
+}
+.footer-handshake{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;   
+}
+.footer-handshake:hover{
+    color: #fcf1f7;
+    background-color: #FC2020;
+    border-color: #FC2020;
+    border-radius: 32px;
+}
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 23px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        color: #F7E3AF;
+        background-color:#312404;
+        font-family: 'Coustard', serif;
+        font-size: 23px;
+        text-align: center;
+        line-height: 40px;
+        border: 2px solid #695F48;
+        border-radius: 35px;
+        transition: all 0.5s ease 0.3s;
+    }
+    /* RESUME */
+    .resume-chip2-assembly {
+        display: inline-block;
+        padding: 0px 30px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        border-radius: 23px;
+        color: #382f2e;
+        background-color: #c4beb5;
+        margin: 1px 1px 1px 1px;
+    }
+    .resume-chip4-intro{
+        display: inline-block;
+        padding: 0px 30px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+        border-radius: 23px;
+        color: #382f2e;
+        background-color: #c9b19b;
+        margin: 1px 1px 1px 1px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) D81159 RUBY
+@media only screen and (min-width: 600px) {
+    /* GENERAL */
+    /*
+    .title{
+        color:#312404;
+        font-family: 'Coustard', serif;
+        font-size: 45px;
+        text-align: center;
+        content: center;
+        position: relative;
+        top: 5vh;
+    }
+    /* ABOUT */   
+    /* 
+    .aboutclass{
+        background-color: #C7D8C6 !important;
+        height: 200vh;
+    }
+    .about-me{
+        background-color: #C7D8C6 !important;
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        color:#312404;
+        text-align: center;
+        height: 200vh;
+        position: relative;
+        top: 3vh; 
+    }
+    .about-desc{
+        content: center;
+        position: relative;
+        top: 10vh; 
+    }
+    .bio-pic{
+        max-width: 120px;
+        max-height: 120px;
+        position: relative; 
+        top: 3vh;
+        content: center;
+    }
+
+/* CONTACT */
+/*
+    #contact{
+        background-color: #223843;
+    }
+    .contact-button{
+        color: #FAFCF5;
+        background-color: #67845E;
+        border-color: #67845E;
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        border: 2px solid #67845E;
+        border-radius: 35px;
+        transition: all 0.5s ease 0.3s;
+        position: relative;
+        top: 2vh;
+    }
+    .contact-button:hover{
+        color: rgb(52, 59, 32);
+        background-color: #90A589;
+        border-color: #90A589;   
+        border-radius: 40px;
+    }
+    .contact-title{
+        color: #F7E3AF;
+        font-family: 'Coustard', serif;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 2vh;
+    }
+    /* FOOTER */
+    /*
+#footer{
+    background-color: #223843;
+}
+.info-footer{
+    background-color: #223843;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: #F7E3AF;
+    position: relative;
+    height: 150px;
+}
+.footer-linkedin{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-linkedin:hover{
+    color: #fcf1f7;
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+    border-radius: 32px;
+}
+.footer-dribbble{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-dribbble:hover{
+    color: #fcf1f7;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+    border-radius: 32px;
+}
+.footer-handshake{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;   
+}
+.footer-handshake:hover{
+    color: #fcf1f7;
+    background-color: #FC2020;
+    border-color: #FC2020;
+    border-radius: 32px;
+}
+
+    /* WORKS */
+    /*
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Coustard', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+    /* RESUME */
+    /*
+    .resume-chip2-assembly{
+        display: inline-block;
+        padding: 0px 20px;
+        height: 35px;
+        font-size: 17px;
+        line-height: 35px;
+        border-radius: 23px;
+        color: #382f2e;
+        background-color: #c4beb5;
+        margin: 2px 2px 2px 2px;
+    }
+    .resume-chip4-intro{
+        display: inline-block;
+        padding: 0px 20px;
+        height: 35px;
+        font-size: 17px;
+        line-height: 35px;
+        border-radius: 23px;
+        color: #382f2e;
+        background-color: #c9b19b;
+        margin: 1px 1px 1px 1px;
+    }
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) FFBC42: YELLOW */
+@media only screen and (min-width: 768px) {
+    /*ABOUT*/ 
+    .aboutclass{
+        background-color: #C7D8C6 !important;
+        height: 160vh;
+    }
+    .about-me{
+        background-color: #C7D8C6 !important;
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;
+        text-align: center;
+        height: 120vh;
+        position: relative;
+        top: 3vh; 
+    }
+    .about-desc{
+        content: center;
+        position: relative;
+        top: 10vh; 
+    }
+    .bio-pic{
+        max-width: 200px;
+        max-height: 200px;
+        position: relative; 
+        top: 3vh;
+        content: center;
+    }
+    /*
+    .shadow-pic{
+        max-width: 130px;
+        position: relative; 
+        top: 3vh;
+    }
+    .shadow-pic2{
+        max-width: 180px;
+        position: relative; 
+        top: 3vh;
+    }
+/* CONTACT */
+    #contact{
+        background-color: #223843;
+    }
+    .contact-button{
+        color: #FAFCF5;
+        background-color: #67845E;
+        border-color: #67845E;
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        border: 2px solid #67845E;
+        border-radius: 35px;
+        transition: all 0.5s ease 0.3s;
+    }
+    .contact-button:hover{
+        color: rgb(52, 59, 32);
+        background-color: #90A589;
+        border-color: #90A589;   
+        border-radius: 40px;
+    }
+    .contact-title{
+        color: #F7E3AF;
+        font-family: 'Coustard', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    /* FOOTER */
+#footer{
+    background-color: #223843;
+}
+.info-footer{
+    background-color: #223843;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: #F7E3AF;
+    position: relative;
+    height: 150px;
+}
+.footer-linkedin{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-linkedin:hover{
+    color: #fcf1f7;
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+    border-radius: 32px;
+}
+.footer-dribbble{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-dribbble:hover{
+    color: #fcf1f7;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+    border-radius: 32px;
+}
+.footer-handshake{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;   
+}
+.footer-handshake:hover{
+    color: #fcf1f7;
+    background-color: #FC2020;
+    border-color: #FC2020;
+    border-radius: 32px;
+}
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Coustard', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) 0496FF: AZURE*/
+@media only screen and (min-width: 992px) {
+    /*ABOUT*/    
+    .aboutclass{
+        background-color: #C7D8C6 !important;
+        min-height: 130vh;
+        max-height: 160vh;
+    }
+    .about-me{
+        background-color: #C7D8C6 !important;
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;
+        text-align: center;
+        height: 120vh;
+        position: relative;
+        top: 3vh; 
+    }
+    .about-desc{
+        content: center;
+        position: relative;
+        top: 10vh; 
+    }
+    .bio-pic{
+        max-width: 250px;
+        max-height: 250px;
+        position: relative; 
+        top: 3vh;
+        content: center;
+    }
+    /*
+    .shadow-pic{
+        max-width: 120px;
+        position: relative; 
+        top: 3vh;
+    }
+    .shadow-pic2{
+        max-width: 375px;
+        position: relative; 
+        top: 3vh;
+    }
+/* CONTACT */
+    #contact{
+        background-color: #223843;
+    }
+    .contact-button{
+        color: #FAFCF5;
+        background-color: #67845E;
+        border-color: #67845E;
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        border: 2px solid #67845E;
+        border-radius: 35px;
+        transition: all 0.5s ease 0.3s;
+    }
+    .contact-button:hover{
+        color: rgb(52, 59, 32);
+        background-color: #90A589;
+        border-color: #90A589;   
+        border-radius: 40px;
+    }
+    .contact-title{
+        color: #F7E3AF;
+        font-family: 'Coustard', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    /* FOOTER */
+#footer{
+    background-color: #223843;
+}
+.info-footer{
+    background-color: #223843;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: #F7E3AF;
+    position: relative;
+    height: 150px;
+}
+.footer-linkedin{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-linkedin:hover{
+    color: #fcf1f7;
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+    border-radius: 32px;
+}
+.footer-dribbble{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-dribbble:hover{
+    color: #fcf1f7;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+    border-radius: 32px;
+}
+.footer-handshake{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;   
+}
+.footer-handshake:hover{
+    color: #fcf1f7;
+    background-color: #FC2020;
+    border-color: #FC2020;
+    border-radius: 32px;
+}
+    /* WORKS */
+    .cb-desc{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;    
+        text-align: center; 
+        content: center;
+        display: block;
+        max-width: 800px;
+    }
+    .cb-button{
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 006BA6: SAPPHIRE BLUE*/
+@media only screen and (min-width: 1200px) {
+/*ABOUT*/
+@import "@material/switch/mdc-switch";
+    .aboutclass{
+        background-color: #C7D8C6 !important;
+        height: 160vh;
+    }
+    .about-me{
+        background-color: #C7D8C6 !important;
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        color:#312404;
+        text-align: center;
+        height: 120vh;
+        position: relative;
+        top: 3vh; 
+    }
+    .about-desc{
+        content: center;
+        position: relative;
+        top: 10vh; 
+    }
+    .bio-pic{
+        max-width: 300px;
+        max-height: 300px;
+        position: relative; 
+        top: 3vh;
+        content: center;
+    }
+    /*
+    .shadow-pic{
+        max-width: 175px;
+        position: relative; 
+        top: 3vh;
+    }
+    .shadow-pic2{
+        max-width: 400px;
+        position: relative; 
+        top: 3vh;
+    }
+/* CONTACT */
+    #contact{
+        background-color: #223843;
+    }
+    .contact-button{
+        color: #FAFCF5;
+        background-color: #67845E;
+        border-color: #67845E;
+        font-family: 'Coustard', serif;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+        border: 2px solid #67845E;
+        border-radius: 35px;
+        transition: all 0.5s ease 0.3s;
+    }
+    .contact-button:hover{
+        color: rgb(52, 59, 32);
+        background-color: #90A589;
+        border-color: #90A589;   
+        border-radius: 40px;
+    }
+    .contact-title{
+        color: #F7E3AF;
+        font-family: 'Coustard', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+/* FOOTER */
+#footer{
+    background-color: #223843;
+}
+.info-footer{
+    background-color: #223843;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: #F7E3AF;
+    position: relative;
+    height: 150px;
+}
+.footer-linkedin{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-linkedin:hover{
+    color: #fcf1f7;
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+    border-radius: 32px;
+}
+.footer-dribbble{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;
+}
+.footer-dribbble:hover{
+    color: #fcf1f7;
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+    border-radius: 32px;
+}
+.footer-handshake{
+    color: #F7E3AF;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 32px;
+    transition: all 0.5s ease 0.3s;   
+}
+.footer-handshake:hover{
+    color: #fcf1f7;
+    background-color: #FC2020;
+    border-color: #FC2020;
+    border-radius: 32px;
+}
+    /* WORKS */
+    /* RESUME */
+    
+    .resume-chip2-assembly {
+        display: inline-block;
+        padding: 0px 15px;
+        height: 35px;
+        font-size: 18px;
+        line-height: 35px;
+        border-radius: 20px;
+        color: #382f2e;
+        background-color: #c4beb5;
+        margin: 2px 2px 2px 2px;
+    }
+    .resume-chip4-intro{
+        display: inline-block;
+        padding: 0px 15px;
+        height: 35px;
+        font-size: 18px;
+        line-height: 35px;
+        border-radius: 20px;
+        color: #382f2e;
+        background-color: #c9b19b;
+        margin: 2px 2px 2px 2px;
+    }
+}
+
+
+
+-->
