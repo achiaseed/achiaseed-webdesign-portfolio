@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="301" height="41" viewBox="0 0 301 41">
+  <g id="Group_79" data-name="Group 79" transform="translate(-30 -470)">
+    <g id="Rectangle_18" data-name="Rectangle 18" transform="translate(30 470)" fill="#fff" stroke="#008fbe" stroke-width="1">
+      <rect width="301" height="41" rx="20.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="300" height="40" rx="20" fill="none"/>
+    </g>
+    <g id="Group_74" data-name="Group 74" transform="translate(18)">
+      <text id="Log_in_with_Facebook" data-name="Log in with Facebook" transform="translate(175 497)" fill="#008fbe" font-size="20" font-family="Nunito-Regular, Nunito"><tspan x="-95.06" y="0">Log in with Facebook</tspan></text>
+      <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M10.954,10.5l.519-3.379H8.23V4.931a1.69,1.69,0,0,1,1.905-1.826h1.474V.228A17.975,17.975,0,0,0,8.993,0C6.323,0,4.578,1.618,4.578,4.548V7.123H1.609V10.5H4.578v8.169H8.23V10.5Z" transform="translate(53.391 480)" fill="#008fbe"/>
+    </g>
+  </g>
+</svg>

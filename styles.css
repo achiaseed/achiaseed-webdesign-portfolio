@@ -289,7 +289,9 @@ user-select: none;
     padding-top:2%;
 }
 .contact-title{
-    padding-bottom:3%;
+    padding-bottom:1%;
+    font-weight:bold;
+
 }
 .info-footer{
     background-color: #1d3846;
@@ -301,6 +303,7 @@ user-select: none;
     color: #e3c885;
     font-family: 'Inria Serif', 'Lora', serif;
     font-size: 20px;
+    padding-bottom:3%;
 }
 .footer-linkedin{
     color: #e3c885;
@@ -398,24 +401,29 @@ user-select: none;
 .timeline{
     font-family: 'Inria Serif', 'Lora', serif;
     font-size: 20px;
-    color:#312404; 
-    text-align: left;
+    color:#393836; 
+    text-align:left;
     padding-left:20%;
 }
 
 .accordion-button{
     font-family: 'Inria Serif', 'Lora', serif;
     font-size: 25px;
+    font-weight: lighter;
     color: #382f2e;
 }
 .card-bg{
     background-color: #fffefe;
+    /*fffefe*/
 }
 .mc21-section{
     background-color: #d5d5cd; 
 }
 .cz-section{
     background-color: #eeeedd; 
+}
+.cf-section{
+    background-color: #ffffff; 
 }
 .tp-section{
     background-color: #b3d1e8;  
@@ -427,21 +435,27 @@ user-select: none;
     background-color: #ddd1c7;
 }
 .nsp-section{
-    background-color: #9D9DAA;
+    background-color: #dcdcdc;
 }
 .nsp-button{
     color: #454442;
     font-family: 'Inria Serif', 'Lora', serif;
     font-size: 20px;
     text-align: center;
-    line-height: 35px;
+    line-height: normal;
     border-radius: 32px;
+    width: 200px;
+    height:50px;
+    background-color: #fad67b;
+    border-color: #fad67b;
 }
 .nsp-button:hover{
     color: #1d3846;
     background-color: #90a7f4;
     border-color: #90a7f4;
     border-radius: 32px;
+    width: 200px;
+    height:50px;
 }
 
 
@@ -609,6 +623,28 @@ user-select: none;
     background-color: #d69b69;
     margin: 2px 2px 2px 2px;
 } 
+.resume-chip2-assembly {
+    display: inline-block;
+    padding: 0px 15px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    border-radius: 20px;
+    color: #382f2e;
+    background-color: #c4beb5;
+    margin: 1px 1px 1px 1px;
+}
+.resume-chip4-intro{
+    display: inline-block;
+    padding: 0px 15px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    border-radius: 20px;
+    color: #382f2e;
+    background-color: #c9b19b;
+    margin: 1px 1px 1px 1px;
+}
 
 
 
@@ -711,5 +747,203 @@ user-select: none;
 /* FOR DEVICE SIZES SPECIFICITY */
 /* Extra small devices (phones, 600px and down) 8F2D56: DARK RASPBERRY*/
 @media only screen and (max-width: 600px) {
+    #menuToggle
+{
+display: block;
+position: relative;
+top: 50px;
+border-right: 90px;
+
+z-index: 1;
+
+-webkit-user-select: none;
+user-select: none;
+}
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+#menuToggle a
+{
+    text-decoration: none;
+    color: #4b4439;
+    font-family: 'Inria Serif', 'Lora', serif;
+    transition: color 0.3s ease;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#menuToggle a:hover
+{
+    color: #587450;
+    font-family: 'Inria Serif', 'Lora', serif;
+    font-weight: 700;
+    font-size: 30px;
+    transform: translateX(-30px);
+    transition: transform 1s,
+                opacity .3s .25s ease-out;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #5c4d3c;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #2e271f;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 170px;
+  margin: -100px 0 0 0;
+  padding: 10px;
+  padding-top: 125px;
+  right: -100px;
+  background-color: #e8e8e8;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's fade it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: scale(1.0, 1.0);
+  opacity: 1;
+}
     
+
+.works-column{
+    padding-bottom:5%;
+    width: 90%;
+}
+
+.nsp-button{
+    color: #454442;
+    font-family: 'Inria Serif', 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height:normal;
+    border-radius: 32px;
+    background-color: #fad67b;
+    border-color: #fad67b;
+}
+.nsp-button:hover{
+    color: #1d3846;
+    background-color: #90a7f4;
+    border-color: #90a7f4;
+    border-radius: 32px;
+}
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) D81159 RUBY */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) FFBC42: YELLOW */
+@media only screen and (min-width: 768px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) 006BA6: SAPPHIRE BLUE*/
+@media only screen and (min-width: 1200px) {
+
 }
