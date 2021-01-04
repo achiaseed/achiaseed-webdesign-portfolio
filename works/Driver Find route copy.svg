@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Driver:_Find_route">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Driver:_Find_route" data-name="Driver: Find route" clip-path="url(#clip-Driver:_Find_route)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="500" height="216" rx="42" transform="translate(325 693)" fill="#d7cfb5"/>
+    <text id="Find_Route" data-name="Find Route" transform="translate(277 212)" fill="#2c372e" font-size="70" font-family="Baloo-Regular, Baloo"><tspan x="0" y="0">Find Route</tspan></text>
+    <g id="noun_Truck_153521" transform="translate(947 757.3)">
+      <g id="Group_53" data-name="Group 53" transform="translate(-594 -37.3)">
+        <path id="Path_61" data-name="Path 61" d="M14.5,52.7a4.268,4.268,0,0,0,3.1,0v-3l-3.1-.1Z" transform="translate(18.715 104.281)"/>
+        <path id="Path_62" data-name="Path 62" d="M26.1,52.7a4.268,4.268,0,0,0,3.1,0V49.6l-3.1.1Z" transform="translate(43.809 104.281)"/>
+        <path id="Path_63" data-name="Path 63" d="M103.415,68.627l-.6-58.386s-.6-4.217-7.441-4.541h-76.5c-6.846.324-7.441,4.541-7.441,4.541l-.6,58.386C6.977,68.627,4,68.952,4,72.844V89.711c0,3.892,2.679,4.217,6.251,4.217v4.866h.3v8.758H16.8V98.793h2.679l.3,10.055s-9.822,1.3-9.525,9.407l-.3,21.408a10.183,10.183,0,0,0,3.572,5.839l.3,16.543s12.2,5.514,20.24.649v-15.57s15.478.649,23.217,0c7.739.649,23.217,0,23.217,0v15.245c8.037,4.866,20.24-.649,20.24-.649l.3-16.543a10.183,10.183,0,0,0,3.572-5.839V117.931c.3-8.109-9.525-9.407-9.525-9.407l.3-10.055h2.679v8.758h6.251V98.469h.3V93.6c3.572,0,6.251-.324,6.251-4.217V72.52C110.261,68.627,107.285,68.627,103.415,68.627ZM20.073,128.311c-3.869,0-6.846-3.244-6.846-7.46s2.977-7.46,6.846-7.46,6.846,3.244,6.846,7.46S23.943,128.311,20.073,128.311Zm6.846-47.033s.6-3.892,3.869-4.866h25.9v29.517S38.23,106.254,28.7,108.2Zm49.708,40.87h-37.8c-.893,0-1.488-.973-1.488-2.271s.6-2.271,1.488-2.271h37.8c.893,0,1.488.973,1.488,2.271C78.115,120.85,77.222,122.148,76.627,122.148Zm3.869,4.866a2.336,2.336,0,0,1,0,4.541H34.658a2.336,2.336,0,0,1,0-4.541Zm2.679,12.975h-50.9a2.279,2.279,0,0,1,0-4.541h50.9a2.279,2.279,0,0,1,0,4.541Zm-24.11-34.059V76.412h25.9c3.274.973,3.869,4.866,3.869,4.866l-1.786,26.6C77.52,106.254,59.065,105.929,59.065,105.929Zm35.718,7.46c3.869,0,6.846,3.244,6.846,7.46s-2.977,7.46-6.846,7.46-6.846-3.244-6.846-7.46S90.914,113.39,94.783,113.39ZM97.76,97.5H95.081l.3-25.625s0-5.19-5.358-4.866H25.133c-5.358-.324-5.358,4.866-5.358,4.866l-.3,25.625H16.8v-5.19a4.189,4.189,0,0,0,.893-2.919V72.52a6.552,6.552,0,0,0-.6-2.595c1.488-11.353,8.93-5.839,40.48-6.487,31.551.649,38.695-4.541,39.885,6.163a4.189,4.189,0,0,0-.893,2.919V89.387a4.189,4.189,0,0,0,.893,2.919A32.308,32.308,0,0,1,97.76,97.5Z" transform="translate(-4 -5.7)"/>
+      </g>
+    </g>
+    <text id="SYSCO_Food_Truck" data-name="SYSCO Food Truck" transform="translate(482 822)" fill="#895315" font-size="35" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">SYSCO Food Truck</tspan></text>
+    <text id="mil_g:_" data-name="mil/g: " transform="translate(532 801)" fill="#584744" font-size="30" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">mil/g: </tspan></text>
+    <text id="tank_size:" data-name="tank size:" transform="translate(482 857)" fill="#584744" font-size="30" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">tank size:</tspan></text>
+    <text id="_1000gal" data-name="1000gal" transform="translate(648 857)" fill="#584744" font-size="30" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">1000gal</tspan></text>
+    <rect id="Rectangle_77" data-name="Rectangle 77" width="1084" height="411" rx="25" transform="translate(293 572)" fill="#fedb9b"/>
+    <text id="_20" data-name="20" transform="translate(648 801)" fill="#584744" font-size="30" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">20</tspan></text>
+    <rect id="Rectangle_89" data-name="Rectangle 89" width="512" height="230.32" rx="42" transform="translate(319 686)" fill="#96616b"/>
+    <g id="noun_logout_2775411" transform="translate(57 787)">
+      <g id="Group_54" data-name="Group 54">
+        <path id="Path_64" data-name="Path 64" d="M46.613,80.471a1.5,1.5,0,0,0,1.38-1.4,1.534,1.534,0,0,0-1.38-1.575H4.873L17.119,65.244a1.615,1.615,0,0,0,0-2.1,1.553,1.553,0,0,0-2.07,0L.388,78.021a1.611,1.611,0,0,0,0,2.1l14.661,14.7a1.28,1.28,0,0,0,2.07,0,1.611,1.611,0,0,0,0-2.1L4.873,80.471Z" transform="translate(64.75)" fill="#e0e5e4"/>
+        <path id="Path_65" data-name="Path 65" d="M264.6,19.315a2.689,2.689,0,0,0,2.735,2.453,2.626,2.626,0,0,0,2.431-2.453V2.453A2.689,2.689,0,0,0,267.027,0H228.735A2.736,2.736,0,0,0,226,2.759V92.9a2.689,2.689,0,0,0,2.735,2.453h38.6a2.694,2.694,0,0,0,2.431-2.759V76.033a2.626,2.626,0,0,0-2.431-2.453,2.689,2.689,0,0,0-2.735,2.453v14.1h-33.43V5.212H264.6Z" transform="translate(-198 29)" fill="#e0e5e4"/>
+      </g>
+    </g>
+    <rect id="Rectangle_62" data-name="Rectangle 62" width="500" height="216" rx="42" transform="translate(325 693)" fill="#b9d6f2"/>
+    <rect id="Rectangle_63" data-name="Rectangle 63" width="500" height="216" rx="42" transform="translate(846 693)" fill="#b9d6f2"/>
+    <rect id="Rectangle_29" data-name="Rectangle 29" width="1920" height="94" fill="#c6ddf4"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="37.5" cy="37.5" r="37.5" transform="translate(1818 10)" fill="#fff"/>
+    <text id="Welcome_Ashley_" data-name="Welcome, Ashley!" transform="translate(1377 64)" fill="#5f332c" font-size="50" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">Welcome, Ashley!</tspan></text>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="15" cy="15" r="15" transform="translate(1841 22)" fill="#e8a879"/>
+    <g id="Group_45" data-name="Group 45" transform="translate(-3 1)">
+      <g id="Group_37" data-name="Group 37" transform="translate(-386 -494)">
+        <path id="Path_37" data-name="Path 37" d="M0-1.253l251.86-1.1v15L0,11.4Z" transform="translate(408 558)" fill="#4b4848"/>
+        <path id="Path_32" data-name="Path 32" d="M1.276,0H27.438a1.778,1.778,0,0,1,1.784,1.772l9.054,21.3s9.2,1.068,18.421,3.019c1.4,1.75.957,9.04,1.42,13.026-.011,12.072.228,27.4.228,27.4-6.164,1.06-43.909-4.851-44.894-4.851,0,0-5.985-.935-9.213-1.8a22.276,22.276,0,0,0-4.747-.776c-1.677-.285,0-57.313,0-57.313A1.778,1.778,0,0,1,1.276,0Z" transform="translate(652 502)" fill="#de6b48"/>
+        <rect id="Rectangle_26" data-name="Rectangle 26" width="19.788" height="19" rx="3" transform="translate(655 504)" fill="#d6f6ff"/>
+        <path id="Path_34" data-name="Path 34" d="M0,0H4.137A18.83,18.83,0,0,1,5.345,5.528a70.877,70.877,0,0,1,0,8.426V40H0Z" transform="translate(705 528.5)" fill="#ded7d7"/>
+        <text id="Transport" transform="translate(418 554)" fill="#332d2d" font-size="53" font-family="FasterOne-Regular, Faster One"><tspan x="0" y="0">T</tspan><tspan y="0" font-size="33">ransport</tspan></text>
+        <line id="Line_2" data-name="Line 2" x2="6" transform="translate(654.5 526.5)" fill="none" stroke="#707070" stroke-width="3"/>
+        <rect id="Rectangle_28" data-name="Rectangle 28" width="5" height="12" rx="2" transform="translate(676.558 508.38) rotate(-8)" fill="#796d6d"/>
+        <path id="Path_38" data-name="Path 38" d="M0,.4c1.091-.43,2.059-.666,2.574.07C5.368,4.443,3.3,7,3.3,7" transform="matrix(0.999, -0.035, 0.035, 0.999, 675.689, 506.432)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Path_39" data-name="Path 39" d="M0,7.447H0l3.821-.5C6.788,6.272,3.863,0,3.863,0" transform="matrix(0.999, 0.035, -0.035, 0.999, 675.939, 514.878)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Path_36" data-name="Path 36" d="M22.444.941c7.952,0,11.334,6.086,15.333,13.038,1.077,2.62-2.2.669-2.057,1.028-.915.433-2.119-8.1-13.276-8.1-7.169,0-12.189,3.228-15.765,4.041A22.644,22.644,0,0,1,2.748,10a5.14,5.14,0,0,1,.779-1.447C7.773,2.946,14.92.84,22.444.941Z" transform="translate(652.247 551.705)" fill="#ce6645"/>
+        <g id="Group_23" data-name="Group 23" transform="translate(-2920.866 650)">
+          <path id="Path_1" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-7.19,16.487-3.085,7.684C-1.143,4.338,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+        <text id="Op" transform="translate(659 553)" fill="#332d2d" font-size="37" font-family="FasterOne-Regular, Faster One"><tspan x="0" y="0">O</tspan><tspan y="0" font-size="17">p</tspan></text>
+        <g id="Group_38" data-name="Group 38" transform="translate(-3169.866 651)">
+          <path id="Path_1-2" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-1.936,10.686.189,7.684C.317,7.5-6.692,14.45-2.588,5.647-.646,2.3,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3-2" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3-2" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+        <g id="Group_39" data-name="Group 39" transform="translate(-3138.866 651)">
+          <path id="Path_1-3" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-1.936,10.686.189,7.684C.317,7.5-6.692,14.45-2.588,5.647-.646,2.3,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3-3" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3-3" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4-3" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+        <g id="Group_40" data-name="Group 40" transform="translate(-2954.866 651)">
+          <path id="Path_1-4" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-1.936,10.686.189,7.684C.317,7.5-6.692,14.45-2.588,5.647-.646,2.3,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3-4" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3-4" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4-4" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Path_56" data-name="Path 56" d="M18.578-.989C5.6,1.841-4.011,9.756-4.011,21.114-7.4,23.451,9.319,34.593,20.01,34.593c9.4,0,14.808,1.063,28.171-11.361C48.18,11.873,31.554-3.819,18.578-.989Z" transform="translate(1833.902 49.948)" fill="#3c3653"/>
+    <rect id="Rectangle_29-2" data-name="Rectangle 29" width="1920" height="94" fill="#c6ddf4"/>
+    <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="37.5" cy="37.5" r="37.5" transform="translate(1818 10)" fill="#fdfdfd"/>
+    <text id="Welcome_Ashley_2" data-name="Welcome, Ashley!" transform="translate(1377 64)" fill="#021438" font-size="50" font-family="BalooBhaijaan-Regular, Baloo Bhaijaan"><tspan x="0" y="0">Welcome, Ashley!</tspan></text>
+    <path id="Path_56-2" data-name="Path 56" d="M18.578-.989C5.6,1.841-4.011,9.756-4.011,21.114-7.4,23.451,9.319,34.593,20.01,34.593c9.4,0,14.808,1.063,28.171-11.361C48.18,11.873,31.554-3.819,18.578-.989Z" transform="translate(1833.902 49.948)" fill="#3c3653"/>
+    <rect id="Rectangle_38" data-name="Rectangle 38" width="252" height="986" transform="translate(0 94)" fill="#0c2163"/>
+    <g id="noun_logout_2775411-2" data-name="noun_logout_2775411" transform="translate(57 787)">
+      <g id="Group_54-2" data-name="Group 54">
+        <path id="Path_64-2" data-name="Path 64" d="M46.613,80.471a1.5,1.5,0,0,0,1.38-1.4,1.534,1.534,0,0,0-1.38-1.575H4.873L17.119,65.244a1.615,1.615,0,0,0,0-2.1,1.553,1.553,0,0,0-2.07,0L.388,78.021a1.611,1.611,0,0,0,0,2.1l14.661,14.7a1.28,1.28,0,0,0,2.07,0,1.611,1.611,0,0,0,0-2.1L4.873,80.471Z" transform="translate(64.75)" fill="#fff"/>
+        <path id="Path_65-2" data-name="Path 65" d="M264.6,19.315a2.689,2.689,0,0,0,2.735,2.453,2.626,2.626,0,0,0,2.431-2.453V2.453A2.689,2.689,0,0,0,267.027,0H228.735A2.736,2.736,0,0,0,226,2.759V92.9a2.689,2.689,0,0,0,2.735,2.453h38.6a2.694,2.694,0,0,0,2.431-2.759V76.033a2.626,2.626,0,0,0-2.431-2.453,2.689,2.689,0,0,0-2.735,2.453v14.1h-33.43V5.212H264.6Z" transform="translate(-198 29)" fill="#fff"/>
+      </g>
+    </g>
+    <rect id="Rectangle_78" data-name="Rectangle 78" width="492" height="196" rx="25" transform="translate(293 313)" fill="#fedb9b"/>
+    <line id="Line_10" data-name="Line 10" x2="1400" transform="translate(277.5 238.5)" fill="none" stroke="#96616b" stroke-width="3"/>
+    <text id="starting_point:" data-name="starting point:" transform="translate(337 295)" fill="#021438" font-size="40" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">starting point:</tspan></text>
+    <rect id="Rectangle_74" data-name="Rectangle 74" width="217" height="44" rx="22" transform="translate(311 349)" fill="#fff"/>
+    <text id="destination:" transform="translate(941 295)" fill="#021438" font-size="40" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">destination:</tspan></text>
+    <text id="vehicle:" transform="translate(326 640)" fill="#2c372e" font-size="40" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">vehicle:</tspan></text>
+    <g id="Rectangle_76" data-name="Rectangle 76" transform="translate(487 606)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="852" height="44" rx="22" stroke="none"/>
+      <rect x="0.5" y="0.5" width="851" height="43" rx="21.5" fill="none"/>
+    </g>
+    <text id="street_name" data-name="street name" transform="translate(323 344)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">street name</tspan></text>
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="217" height="44" rx="22" transform="translate(538 349)" fill="#fff"/>
+    <text id="city" transform="translate(550 344)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">city</tspan></text>
+    <rect id="Rectangle_80" data-name="Rectangle 80" width="217" height="44" rx="22" transform="translate(313 432)" fill="#fff"/>
+    <text id="state" transform="translate(325 427)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">state</tspan></text>
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="217" height="44" rx="22" transform="translate(538 437)" fill="#fff"/>
+    <text id="zip" transform="translate(550 432)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">zip</tspan></text>
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="492" height="196" rx="25" transform="translate(885 315)" fill="#fedb9b"/>
+    <rect id="Rectangle_83" data-name="Rectangle 83" width="217" height="44" rx="22" transform="translate(903 351)" fill="#fff"/>
+    <text id="street_name-2" data-name="street name" transform="translate(915 346)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">street name</tspan></text>
+    <rect id="Rectangle_84" data-name="Rectangle 84" width="217" height="44" rx="22" transform="translate(1130 351)" fill="#fff"/>
+    <text id="city-2" data-name="city" transform="translate(1142 346)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">city</tspan></text>
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="217" height="44" rx="22" transform="translate(905 434)" fill="#fff"/>
+    <text id="state-2" data-name="state" transform="translate(917 429)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">state</tspan></text>
+    <rect id="Rectangle_86" data-name="Rectangle 86" width="217" height="44" rx="22" transform="translate(1130 439)" fill="#fff"/>
+    <text id="zip-2" data-name="zip" transform="translate(1142 434)" fill="#2c372e" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">zip</tspan></text>
+    <path id="Path_84" data-name="Path 84" d="M22.5-60a14.938,14.938,0,0,0-15,15c0,8.333,6.667,15,15,25,8.333-10,15-16.667,15-25A14.938,14.938,0,0,0,22.5-60Zm0,10a4.993,4.993,0,0,1,5,5,4.993,4.993,0,0,1-5,5,4.993,4.993,0,0,1-5-5A4.993,4.993,0,0,1,22.5-50Zm0,0" transform="translate(294.5 322)"/>
+    <path id="Path_80" data-name="Path 80" d="M211.56,152.206l6.015-9.964a.736.736,0,0,0-.62-1.11h-26.2a2.193,2.193,0,1,0-1.7.022v35.288a.734.734,0,1,0,1.469,0V163.268h26.433a.714.714,0,0,0,.631-.37.722.722,0,0,0-.011-.74Zm-21.68-12.346a.738.738,0,0,1-.729-.74.729.729,0,0,1,1.458,0A.738.738,0,0,1,189.88,139.859Z" transform="translate(716.317 125.073)"/>
+    <path id="Path_85" data-name="Path 85" d="M25,22.146l.01-.014a11,11,0,1,0-2.877,2.877l.014-.01,9.331,9.331a2.017,2.017,0,0,0,2.853-2.853Zm-9.062,2.87a9.085,9.085,0,1,1,4.816-1.385A9.085,9.085,0,0,1,15.937,25.015Z" transform="translate(494 608.08)" fill="#707070"/>
+    <circle id="Ellipse_11-2" data-name="Ellipse 11" cx="15" cy="15" r="15" transform="translate(1841 22)" fill="#e8a879"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="50" cy="50" r="50" transform="translate(1779 911)" fill="#faf4dd"/>
+    <g id="Group_52" data-name="Group 52">
+      <g id="Group_46" data-name="Group 46" transform="translate(1806.474 938)">
+        <g id="Group_47" data-name="Group 47" transform="translate(1.076)">
+          <g id="Group_46-2" data-name="Group 46">
+            <path id="Path_58" data-name="Path 58" d="M37.905,71.35a2.1,2.1,0,0,1-1.1-.4L29,63.159a1.447,1.447,0,0,1,0-2.1L62.118,28a1.451,1.451,0,0,1,2.1,0l7.8,7.791a1.447,1.447,0,0,1,0,2.1L39.006,70.95A2.1,2.1,0,0,1,37.905,71.35Zm-5.6-9.289,5.7,5.693L69.022,36.789l-5.7-5.694Z" transform="translate(-28.55 -27.55)" fill="#3a3335"/>
+          </g>
+        </g>
+        <g id="Group_49" data-name="Group 49" transform="translate(0 33.222)">
+          <g id="Group_48" data-name="Group 48">
+            <path id="Path_59" data-name="Path 59" d="M29,72.5a2.1,2.1,0,0,1-1.1-.4,1.374,1.374,0,0,1-.4-1.2l1.1-8.8a1.549,1.549,0,0,1,1-1.2,1.439,1.439,0,0,1,1.5.4L38.8,69a1.674,1.674,0,0,1,.4,1.5,1.722,1.722,0,0,1-1.2,1l-8.8,1.1C29.1,72.5,29.1,72.5,29,72.5Zm2.2-7.1-.5,3.9,3.9-.5Z" transform="translate(-27.474 -60.822)" fill="#3a3335"/>
+          </g>
+        </g>
+        <g id="Group_51" data-name="Group 51" transform="translate(26.495 7.689)">
+          <g id="Group_50" data-name="Group 50">
+            <path id="Path_60" data-name="Path 60" d="M63.3,46a1.5,1.5,0,0,1-1.1-.4l-7.8-7.8a1.485,1.485,0,1,1,2.1-2.1l7.8,7.8a1.45,1.45,0,0,1,0,2.1A1.528,1.528,0,0,1,63.3,46Z" transform="translate(-53.95 -35.25)" fill="#3a3335"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_46" data-name="Rectangle 46" width="190" height="88" rx="44" transform="translate(31 333)" fill="#faf3dd"/>
+    <text id="find_route-2" data-name="find route" transform="translate(54 385)" fill="#3a3335" font-size="29" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">find route</tspan></text>
+    <rect id="Rectangle_61" data-name="Rectangle 61" width="190" height="88" rx="44" transform="translate(31 437)" fill="#faf3dd"/>
+    <text id="add_truck" data-name="add truck" transform="translate(56 491)" fill="#3a3335" font-size="29" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">add truck</tspan></text>
+    <rect id="Rectangle_126" data-name="Rectangle 126" width="190" height="88" rx="44" transform="translate(31 229)" fill="#faf3dd"/>
+    <text id="home" transform="translate(85 282)" fill="#3a3335" font-size="29" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">home</tspan></text>
+    <g id="Group_45-2" data-name="Group 45" transform="translate(-3 1)">
+      <g id="Group_37-2" data-name="Group 37" transform="translate(-402 -494)">
+        <path id="Path_37-2" data-name="Path 37" d="M0-1.253l251.86-1.1v15L0,11.4Z" transform="translate(408 558)" fill="#3a3335"/>
+        <path id="Path_32-2" data-name="Path 32" d="M1.276,0H27.438a1.778,1.778,0,0,1,1.784,1.772l9.054,21.3s9.2,1.068,18.421,3.019c1.4,1.75.957,9.04,1.42,13.026-.011,12.072.228,27.4.228,27.4-6.164,1.06-43.909-4.851-44.894-4.851,0,0-5.985-.935-9.213-1.8a22.276,22.276,0,0,0-4.747-.776c-1.677-.285,0-57.313,0-57.313A1.778,1.778,0,0,1,1.276,0Z" transform="translate(652 502)" fill="#96616b"/>
+        <rect id="Rectangle_26-2" data-name="Rectangle 26" width="19.788" height="19" rx="3" transform="translate(655 504)" fill="#c7ddf4"/>
+        <path id="Path_34-2" data-name="Path 34" d="M0,0H4.137A18.953,18.953,0,0,1,5.345,5.547a71.384,71.384,0,0,1,0,8.456V40.143H0Z" transform="translate(705 528.5)" fill="#ded7d7"/>
+        <text id="Transport-2" data-name="Transport" transform="translate(418 554)" fill="#021438" font-size="53" font-family="FasterOne-Regular, Faster One"><tspan x="0" y="0">T</tspan><tspan y="0" font-size="33">ransport</tspan></text>
+        <line id="Line_2-2" data-name="Line 2" x2="6" transform="translate(654.5 526.5)" fill="none" stroke="#707070" stroke-width="3"/>
+        <rect id="Rectangle_28-2" data-name="Rectangle 28" width="4" height="10" rx="2" transform="translate(677.827 510.222) rotate(-8)" fill="#796d6d"/>
+        <path id="Path_38-2" data-name="Path 38" d="M0,.4c.573-.43,1.081-.666,1.352.07C2.819,4.443,1.731,7,1.731,7" transform="matrix(0.999, -0.035, 0.035, 0.999, 677.603, 506.365)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Path_39-2" data-name="Path 39" d="M0,7.447H0l1.613-.5C2.865,6.272,1.63,0,1.63,0" transform="matrix(0.999, 0.035, -0.035, 0.999, 678.914, 514.982)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Path_36-2" data-name="Path 36" d="M22.444.941c7.952,0,11.334,6.086,15.333,13.038,1.077,2.62-2.2.669-2.057,1.028-.915.433-2.119-8.1-13.276-8.1-7.169,0-12.189,3.228-15.765,4.041A22.644,22.644,0,0,1,2.748,10a5.14,5.14,0,0,1,.779-1.447C7.773,2.946,14.92.84,22.444.941Z" transform="translate(652.247 551.705)" fill="#81565e"/>
+        <g id="Group_23-2" data-name="Group 23" transform="translate(-2920.866 650)">
+          <path id="Path_1-5" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-7.19,16.487-3.085,7.684C-1.143,4.338,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3-5" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3-5" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4-5" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+        <text id="Op-2" data-name="Op" transform="translate(659 553)" fill="#021438" font-size="37" font-family="FasterOne-Regular, Faster One"><tspan x="0" y="0">O</tspan><tspan y="0" font-size="17">p</tspan></text>
+        <g id="Group_38-2" data-name="Group 38" transform="translate(-3169.866 651)">
+          <path id="Path_1-6" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-1.936,10.686.189,7.684C.317,7.5-6.692,14.45-2.588,5.647-.646,2.3,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3-6" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3-6" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4-6" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+        <g id="Group_39-2" data-name="Group 39" transform="translate(-3138.866 651)">
+          <path id="Path_1-7" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-1.936,10.686.189,7.684C.317,7.5-6.692,14.45-2.588,5.647-.646,2.3,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3-7" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3-7" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4-7" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+        <g id="Group_40-2" data-name="Group 40" transform="translate(-2954.866 651)">
+          <path id="Path_1-8" data-name="Path 1" d="M11.563.358c5.2,0,13.929,5.839,13.865,11.836C26.684,14.478,18.37,6.544,10.6,6.544S-1.936,10.686.189,7.684C.317,7.5-6.692,14.45-2.588,5.647-.646,2.3,6.865.291,11.563.358Z" transform="translate(3583.23 -95)" fill="#393737"/>
+          <g id="Group_3-8" data-name="Group 3" transform="translate(3561 -109)">
+            <ellipse id="Ellipse_3-8" data-name="Ellipse 3" cx="15.663" cy="15" rx="15.663" ry="15" transform="translate(17 16)" fill="#050404"/>
+            <circle id="Ellipse_4-8" data-name="Ellipse 4" cx="7.5" cy="7.5" r="7.5" transform="translate(25.34 23.769)" fill="#a8a8a8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_113" data-name="Group 113">
+      <circle id="Ellipse_12-2" data-name="Ellipse 12" cx="50" cy="50" r="50" transform="translate(1779 911)" fill="#faf4dd"/>
+      <path id="Path_128" data-name="Path 128" d="M38.384,33.63l.017-.024a18.339,18.339,0,1,0-4.8,4.8l.024-.017L49.181,53.935a3.362,3.362,0,0,0,4.754-4.755Zm-15.1,4.783A15.142,15.142,0,1,1,31.308,36.1,15.142,15.142,0,0,1,23.281,38.412Z" transform="translate(1800 931.08)" fill="#707070"/>
+    </g>
+    <g id="noun_Truck_153521-2" data-name="noun_Truck_153521" transform="translate(1464.479 796.3)">
+      <g id="Group_53-2" data-name="Group 53" transform="translate(-594 -37.3)">
+        <path id="Path_61-2" data-name="Path 61" d="M14.5,52.7a4.268,4.268,0,0,0,3.1,0v-3l-3.1-.1Z" transform="translate(13.439 79.282)" fill="#021438"/>
+        <path id="Path_62-2" data-name="Path 62" d="M26.1,52.7a4.268,4.268,0,0,0,3.1,0V49.6l-3.1.1Z" transform="translate(32.706 79.282)" fill="#021438"/>
+        <path id="Path_63-2" data-name="Path 63" d="M88.083,58.733l-.5-49.206s-.5-3.554-6.294-3.827h-64.7c-5.79.273-6.294,3.827-6.294,3.827l-.5,49.206c-3.273,0-5.79.273-5.79,3.554V76.5c0,3.28,2.266,3.554,5.287,3.554v4.1h.252v7.381h5.287V84.156h2.266l.252,8.474s-8.308,1.093-8.056,7.928L9.035,118.6a8.574,8.574,0,0,0,3.021,4.921l.252,13.942s10.322,4.647,17.119.547V124.888s13.091.547,19.636,0c6.545.547,19.636,0,19.636,0v12.848c6.8,4.1,17.119-.547,17.119-.547l.252-13.942a8.574,8.574,0,0,0,3.021-4.921V100.285c.252-6.834-8.056-7.928-8.056-7.928l.252-8.474h2.266v7.381h5.287V83.883h.252v-4.1c3.021,0,5.287-.273,5.287-3.554V62.013C93.873,58.733,91.356,58.733,88.083,58.733Zm-70.489,50.3c-3.273,0-5.79-2.734-5.79-6.287s2.517-6.287,5.79-6.287,5.79,2.734,5.79,6.287S20.867,109.032,17.594,109.032Zm5.79-39.638s.5-3.28,3.273-4.1h21.9V90.17s-15.608.273-23.664,1.914Zm42.042,34.444H33.454c-.755,0-1.259-.82-1.259-1.914s.5-1.914,1.259-1.914H65.426c.755,0,1.259.82,1.259,1.914C66.685,102.745,65.93,103.838,65.426,103.838Zm3.273,4.1a1.967,1.967,0,0,1,0,3.827H29.93a1.967,1.967,0,0,1,0-3.827Zm2.266,10.935H27.916a1.92,1.92,0,0,1,0-3.827H70.965a1.92,1.92,0,0,1,0,3.827ZM50.573,90.17V65.294h21.9c2.769.82,3.273,4.1,3.273,4.1L74.237,91.81C66.181,90.444,50.573,90.17,50.573,90.17Zm30.21,6.287c3.273,0,5.79,2.734,5.79,6.287s-2.517,6.287-5.79,6.287-5.79-2.734-5.79-6.287S77.51,96.458,80.783,96.458ZM83.3,83.063H81.034l.252-21.6a4.043,4.043,0,0,0-4.531-4.1H21.874a4.043,4.043,0,0,0-4.531,4.1l-.252,21.6H14.825V78.689a3.522,3.522,0,0,0,.755-2.46V62.013a5.505,5.505,0,0,0-.5-2.187c1.259-9.568,7.552-4.921,34.238-5.467,26.685.547,32.727-3.827,33.734,5.194a3.522,3.522,0,0,0-.755,2.46V76.229a3.522,3.522,0,0,0,.755,2.46A27.132,27.132,0,0,1,83.3,83.063Z" transform="translate(-4 -5.7)" fill="#021438"/>
+      </g>
+    </g>
+    <text id="Utensils_Truck" data-name="Utensils Truck" transform="translate(1070 741)" fill="#031238" font-size="35" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">Utensils Truck</tspan></text>
+    <text id="Sysco" transform="translate(872 741)" fill="#031238" font-size="35" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">Sysco</tspan></text>
+    <text id="mil_g:" data-name="mil/g:" transform="translate(1048 798)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">mil/g:</tspan></text>
+    <text id="tank_size:-2" data-name="tank size:" transform="translate(997 839)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">tank size:</tspan></text>
+    <text id="_830gal" data-name="830gal" transform="translate(1159 839)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">830gal</tspan></text>
+    <text id="_34" data-name="34" transform="translate(1160 801)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">34</tspan></text>
+    <text id="diesel_only:" data-name="diesel only:" transform="translate(994 876)" fill="#3a3335" font-size="26" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">diesel only:</tspan></text>
+    <text id="yes" transform="translate(1161 876)" fill="#3a3335" font-size="26" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">yes</tspan></text>
+    <text id="Food_Truck" data-name="Food Truck" transform="translate(605 743)" fill="#031238" font-size="35" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">Food Truck</tspan></text>
+    <text id="mil_g:-2" data-name="mil/g:" transform="translate(532 803)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">mil/g:</tspan></text>
+    <text id="tank_size:-3" data-name="tank size:" transform="translate(479 841)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">tank size:</tspan></text>
+    <text id="_1000gal-2" data-name="1000gal" transform="translate(645 841)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">1000gal</tspan></text>
+    <text id="_20-2" data-name="20" transform="translate(645 803)" fill="#3a3335" font-size="30" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">20</tspan></text>
+    <text id="diesel_only:-2" data-name="diesel only:" transform="translate(474 875)" fill="#3a3335" font-size="26" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">diesel only:</tspan></text>
+    <text id="yes-2" data-name="yes" transform="translate(645 875)" fill="#3a3335" font-size="26" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">yes</tspan></text>
+    <text id="Sysco-2" data-name="Sysco" transform="translate(352 743)" fill="#031238" font-size="35" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">Sysco</tspan></text>
+    <g id="noun_Truck_153521-3" data-name="noun_Truck_153521" transform="translate(944.479 795.3)">
+      <g id="Group_53-3" data-name="Group 53" transform="translate(-594 -37.3)">
+        <path id="Path_61-3" data-name="Path 61" d="M14.5,52.7a4.268,4.268,0,0,0,3.1,0v-3l-3.1-.1Z" transform="translate(13.439 79.282)" fill="#021438"/>
+        <path id="Path_62-3" data-name="Path 62" d="M26.1,52.7a4.268,4.268,0,0,0,3.1,0V49.6l-3.1.1Z" transform="translate(32.706 79.282)" fill="#021438"/>
+        <path id="Path_63-3" data-name="Path 63" d="M88.083,58.733l-.5-49.206s-.5-3.554-6.294-3.827h-64.7c-5.79.273-6.294,3.827-6.294,3.827l-.5,49.206c-3.273,0-5.79.273-5.79,3.554V76.5c0,3.28,2.266,3.554,5.287,3.554v4.1h.252v7.381h5.287V84.156h2.266l.252,8.474s-8.308,1.093-8.056,7.928L9.035,118.6a8.574,8.574,0,0,0,3.021,4.921l.252,13.942s10.322,4.647,17.119.547V124.888s13.091.547,19.636,0c6.545.547,19.636,0,19.636,0v12.848c6.8,4.1,17.119-.547,17.119-.547l.252-13.942a8.574,8.574,0,0,0,3.021-4.921V100.285c.252-6.834-8.056-7.928-8.056-7.928l.252-8.474h2.266v7.381h5.287V83.883h.252v-4.1c3.021,0,5.287-.273,5.287-3.554V62.013C93.873,58.733,91.356,58.733,88.083,58.733Zm-70.489,50.3c-3.273,0-5.79-2.734-5.79-6.287s2.517-6.287,5.79-6.287,5.79,2.734,5.79,6.287S20.867,109.032,17.594,109.032Zm5.79-39.638s.5-3.28,3.273-4.1h21.9V90.17s-15.608.273-23.664,1.914Zm42.042,34.444H33.454c-.755,0-1.259-.82-1.259-1.914s.5-1.914,1.259-1.914H65.426c.755,0,1.259.82,1.259,1.914C66.685,102.745,65.93,103.838,65.426,103.838Zm3.273,4.1a1.967,1.967,0,0,1,0,3.827H29.93a1.967,1.967,0,0,1,0-3.827Zm2.266,10.935H27.916a1.92,1.92,0,0,1,0-3.827H70.965a1.92,1.92,0,0,1,0,3.827ZM50.573,90.17V65.294h21.9c2.769.82,3.273,4.1,3.273,4.1L74.237,91.81C66.181,90.444,50.573,90.17,50.573,90.17Zm30.21,6.287c3.273,0,5.79,2.734,5.79,6.287s-2.517,6.287-5.79,6.287-5.79-2.734-5.79-6.287S77.51,96.458,80.783,96.458ZM83.3,83.063H81.034l.252-21.6a4.043,4.043,0,0,0-4.531-4.1H21.874a4.043,4.043,0,0,0-4.531,4.1l-.252,21.6H14.825V78.689a3.522,3.522,0,0,0,.755-2.46V62.013a5.505,5.505,0,0,0-.5-2.187c1.259-9.568,7.552-4.921,34.238-5.467,26.685.547,32.727-3.827,33.734,5.194a3.522,3.522,0,0,0-.755,2.46V76.229a3.522,3.522,0,0,0,.755,2.46A27.132,27.132,0,0,1,83.3,83.063Z" transform="translate(-4 -5.7)" fill="#021438"/>
+      </g>
+    </g>
+  </g>
+</svg>
