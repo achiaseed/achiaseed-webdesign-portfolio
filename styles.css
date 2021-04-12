@@ -1,6 +1,9 @@
 /* STYLING APPLIED TO ALL */ 
 /* GENERAL CLASSES */
 
+
+
+
 .title{
     font-family: 'Coustard', serif;
     font-size: 55px;
@@ -457,6 +460,24 @@ user-select: none;
     width: 200px;
     height:50px;
 }
+container1 {
+    height: 100vh;
+  }
+  
+  container2 {
+    height: 300vh;
+    background: #4C6174;
+  }
+  
+  canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+
 
 
 
