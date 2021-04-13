@@ -420,7 +420,7 @@ user-select: none;
     /*fffefe*/
 }
 .mc21-section{
-    background-color: #d5d5cd; 
+    background-color: #F6F4E6; 
 }
 .cz-section{
     background-color: #eeeedd; 
@@ -460,16 +460,15 @@ user-select: none;
     width: 200px;
     height:50px;
 }
-container1 {
+.container1 {
     height: 100vh;
   }
   
-  container2 {
+  .container2 {
     height: 300vh;
-    background: #4C6174;
   }
   
-  canvas {
+  #canvas {
     position: fixed;
     left: 50%;
     top: 50%;
@@ -479,7 +478,23 @@ container1 {
   }
 
 
-
+  .mc21-product-button
+  {
+      font-family: 'Coustard', serif;
+      font-size: 20px;
+      text-align: center;
+      line-height: 30px;
+      background-color: #4C6374;
+      color:#F6F4E6;
+      border:2px solid #4C6374;
+      border-radius: 35px;
+      transition: all 0.5s ease 0.3s;
+  }
+  .mc21-product-button:hover{
+      background-color: #A1ADB9;
+      color:#362C28;
+      border:2px solid #A1ADB9;
+  }
 
 
 
